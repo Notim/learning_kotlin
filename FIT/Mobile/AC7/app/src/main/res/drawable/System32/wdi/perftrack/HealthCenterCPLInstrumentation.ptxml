@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{a5f3d072-b08b-43e9-957e-e3fd9c72e3d2}" interactionclass="Responsive" key="$ProcessId" name="Shell-HealthCenterControlPanelLaunch" sqmid="252" tags="Shell UIC">
+        <event provider="{959F1FAC-7CA8-4ed1-89DC-CDFA7E093CB0}" type="start" value="100" version="0"/>
+        <event provider="{959F1FAC-7CA8-4ed1-89DC-CDFA7E093CB0}" type="stop" value="101" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

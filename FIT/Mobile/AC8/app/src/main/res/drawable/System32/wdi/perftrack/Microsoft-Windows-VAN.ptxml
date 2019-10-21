@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{73e00691-b4fc-4d42-87c5-69339fbc4477}" interactionclass="Continuous" key=" " name="NetUI-VAN-Init" sqmid="327" tags="Networking">
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="start" value="8001" version="0"/>
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="stop" value="8002" version="0"/>
+      </scenario>
+      <scenario guid="{bf6d785e-ce92-427e-9053-bcd4c3897fa1}" interactionclass="Typical" key=" " name="NetUI-TrayIcon-DisplayVANTooltip" sqmid="159" tags="Networking">
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="start" value="8003" version="0"/>
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="stop" value="8004" version="0"/>
+      </scenario>
+      <scenario guid="{a51824b2-f8ef-4b1a-a66d-c6e3c08874ed}" interactionclass="Continuous" key=" " name="NetUI-TrayIcon-DisplayVANFlyout" sqmid="160" tags="Networking">
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="start" value="8005" version="0"/>
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="stop" value="8006" version="0"/>
+      </scenario>
+      <scenario guid="{a78e6951-7eca-4946-8dd1-99af838e36da}" interactionclass="Responsive" key=" " name="NetUI-VANUI-DisplayCFE" sqmid="162" tags="Networking">
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="start" value="8007" version="0"/>
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="stop" value="8008" version="0"/>
+      </scenario>
+      <scenario guid="{607e6a16-1ced-475b-8550-5071a479e934}" interactionclass="Extended" key=" " name="NetUI-VANUI-DisconnectNetwork" sqmid="163" tags="Networking">
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="start" value="8009" version="0"/>
+        <event provider="{01578F96-C270-4602-ADE0-578D9C29FC0C}" type="stop" value="8010" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

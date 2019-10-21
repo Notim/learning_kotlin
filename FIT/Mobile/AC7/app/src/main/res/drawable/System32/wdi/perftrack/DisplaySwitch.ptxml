@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{fa722697-fd5e-44e8-bb5d-4db5d3f0d67c}" interactionclass="Typical" key="$ProcessId" name="Shell-DisplaySwitchLaunch" sqmid="248" tags="Shell UIC">
+        <event provider="{192ede41-9175-4c86-ac02-9d003c9d43ab}" type="start" value="1" version="0"/>
+        <event provider="{192ede41-9175-4c86-ac02-9d003c9d43ab}" type="stop" value="4" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

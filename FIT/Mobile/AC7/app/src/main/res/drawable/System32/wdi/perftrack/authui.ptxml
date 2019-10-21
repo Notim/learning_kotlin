@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{dd0f7a1b-dd63-4595-aeb5-ee37ab02b525}" interactionclass="Continuous" key="$ProcessId" name="LogonUI-LaunchToReadyForInput" sqmid="255" tags="LogonUI">
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="start" value="25057" version="0"/>
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="stop" value="25058" version="0"/>
+      </scenario>
+      <scenario guid="{b6ca6097-90e7-46c8-920e-6221d2831b76}" interactionclass="LongRunning" key="$ProcessId" name="LogonUI-CredentialsToExit" sqmid="256" tags="LogonUI">
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="start" value="25059" version="0"/>
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="stop" value="25060" version="0"/>
+      </scenario>
+      <scenario guid="{0923d059-ed62-4dc4-952b-6e00c5c278c6}" interactionclass="Fast" key="$ProcessId" name="LogonUI-RequestCredentialsToReadyForCredentials" sqmid="257" tags="LogonUI">
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="start" value="25061" version="0"/>
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="stop" value="25062" version="0"/>
+      </scenario>
+      <scenario guid="{57fca879-38cd-4a2e-af13-191b55346ab4}" interactionclass="Captive" key="$ProcessId" name="LogonUI-LaunchToAnimationComplete" sqmid="258" tags="LogonUI">
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="start" value="25063" version="0"/>
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="stop" value="25064" version="0"/>
+      </scenario>
+      <scenario guid="{5bd8b77c-281b-4de5-bc82-426e0eff1472}" interactionclass="Fast" key="$ProcessId" name="LogonUI-RequestCredentialsToCancelAfterEnumerate" sqmid="540" tags="LogonUI">
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="start" value="25061" version="0"/>
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="stop" value="25066" version="0"/>
+      </scenario>
+      <scenario guid="{2f271abb-d508-4e37-b236-c3bd896401d5}" interactionclass="LongRunning" key="$ProcessId" name="LogonUI-LaunchToCancelAfterResume" sqmid="555" tags="LogonUI">
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="start" value="25057" version="0"/>
+        <event provider="{63D2BB1D-E39A-41b8-9A3D-52DD06677588}" type="stop" value="25068" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

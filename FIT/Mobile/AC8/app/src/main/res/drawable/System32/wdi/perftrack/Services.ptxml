@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{5dd6f082-ad5a-4483-8037-0e7da0bbc7e5}" interactionclass="LongRunning" key="$ProcessId" name="ServiceController-AutoStart-All" sqmid="313" tags="SCM">
+        <event provider="{0063715b-eeda-4007-9429-ad526f62696e}" type="start" value="101" version="0"/>
+        <event provider="{0063715b-eeda-4007-9429-ad526f62696e}" type="stop" value="102" version="0"/>
+      </scenario>
+      <scenario guid="{3193516d-5c7e-4788-9983-0c7e1083045c}" interactionclass="Extended" key="$ProcessId" name="ServiceController-AutoStart-PerfCritical" sqmid="314" tags="SCM">
+        <event provider="{0063715b-eeda-4007-9429-ad526f62696e}" type="start" value="106" version="0"/>
+        <event provider="{0063715b-eeda-4007-9429-ad526f62696e}" type="stop" value="107" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

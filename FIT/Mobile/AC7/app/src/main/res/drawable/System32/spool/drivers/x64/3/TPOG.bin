@@ -1,0 +1,18 @@
+// ThinPrint Output Gateway data file
+[LanguageFiles]
+Lang1=TPPrnUIchs.dll
+Lang2=TPPrnUIcht.dll
+Lang3=TPPrnUIcsy.dll
+Lang4=TPPrnUIdeu.dll
+Lang5=TPPrnUIell.dll
+Lang6=TPPrnUIesn.dll
+Lang7=TPPrnUIfra.dll
+Lang8=TPPrnUIhun.dll
+Lang9=TPPrnUIjpn.dll
+Lang10=TPPrnUIkor.dll
+Lang11=TPPrnUIplk.dll
+Lang12=TPPrnUIptb.dll
+Lang13=TPPrnUIrus.dll
+Lang14=TPPrnUItha.dll
+Lang15=TPPrnUIita.dll
+Lang16=TPPrnUIsve.dll

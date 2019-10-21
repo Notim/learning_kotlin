@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@8,0,0,4,0" guid="{8cec582e-07a1-11d9-b15e-000d56bfe6ee}" interactionclass="Continuous" key="sessionid" name="Help-ApplicationLaunch" sqmid="143" tags="Help">
+        <event provider="{DE513A55-C345-438b-9A74-E18CAC5C5CC5}" type="begin" value="62" version="0"/>
+        <event provider="{DE513A55-C345-438b-9A74-E18CAC5C5CC5}" type="end" value="63" version="0"/>
+      </scenario>
+      <scenario guid="{8cec595d-07a1-11d9-b15e-000d56bfe6ee}" interactionclass="Continuous" key="$ProcessId" name="Help-Search" sqmid="144" tags="Help">
+        <event provider="{DE513A55-C345-438b-9A74-E18CAC5C5CC5}" type="begin" value="54" version="0"/>
+        <event provider="{DE513A55-C345-438b-9A74-E18CAC5C5CC5}" type="end" value="55" version="0"/>
+      </scenario>
+      <scenario guid="{8cec595e-07a1-11d9-b15e-000d56bfe6ee}" interactionclass="Continuous" key="$ProcessId" name="Help-Browse" sqmid="145" tags="Help">
+        <event provider="{DE513A55-C345-438b-9A74-E18CAC5C5CC5}" type="begin" value="56" version="0"/>
+        <event provider="{DE513A55-C345-438b-9A74-E18CAC5C5CC5}" type="end" value="57" version="0"/>
+      </scenario>
+      <scenario guid="{8cec595f-07a1-11d9-b15e-000d56bfe6ee}" interactionclass="Continuous" key="$ProcessId" name="Help-Navigate" sqmid="146" tags="Help">
+        <event provider="{DE513A55-C345-438b-9A74-E18CAC5C5CC5}" type="begin" value="100" version="0"/>
+        <event provider="{DE513A55-C345-438b-9A74-E18CAC5C5CC5}" type="end" value="101" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

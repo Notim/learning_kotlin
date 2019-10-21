@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@a,0,0,8,0" guid="{145c1057-7755-42ea-900d-a792056a97f9}" interactionclass="Instant" key="Object" name="IEFrame-TabSwitch" sqmid="1" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="101" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="102" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{8cc5ee98-f70d-488c-be68-148309c91e75}" interactionclass="Responsive" key="$ProcessId Object" name="IEFrame-TabSwitchWithoutRepaint" sqmid="859" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="101" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="112" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{6ea5e864-ebb7-444b-a6f3-6c645028a5c3}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-TabCreate" sqmid="2" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="103" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="104" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{9b03be03-1a5f-4cb8-b7be-b91e10c755c4}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-FavoritesSwitchView" sqmid="3" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="105" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="106" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{c98c2ba2-2af9-4649-ac77-0c23126686aa}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-FeedsSwitchView" sqmid="4" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="107" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="108" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{c0064e3a-12aa-4724-b7f9-90f22f5dc520}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-HistorySwitchView" sqmid="5" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="109" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="110" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{41b3c86c-35cc-41ba-a96d-08d14305ce37}" interactionclass="Fast" key="$ProcessId Object" name="IEFrame-TabCreate-NewTabPage" sqmid="843" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="103" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="111" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{da222bb6-1538-43e6-8133-4efb6b32195a}" interactionclass="Continuous" key="Object" name="AMEX-ImmersiveBrowser-SwitchToHalfTab" sqmid="973" tags="modern browser PLM">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="101" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="113" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{9907606d-a8ea-40f3-b278-41a0362ac680}" interactionclass="Instant" key="$ProcessId Object" name="AMEX-ImmersiveBrowser-SwitchToHalfTabNoPaint" sqmid="1069" tags="modern browser PLM">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="101" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="114" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{2bb1275b-cbfb-40ae-b4f5-e61a9f124099}" interactionclass="Continuous" key="Object" name="AMEX-ImmersiveBrowser-LaunchToActiveTab" sqmid="974" tags="modern browser PLM">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="151" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="152" version="0"/>
+      </scenario>
+      <scenario guid="{ccbf434b-2f1d-44c9-a73e-e7a27b826dd9}" interactionclass="Continuous" key="$ProcessId" name="AMEX-ImmersiveBrowser-LaunchToActiveTabWithNoPaint" sqmid="1282" tags="modern browser PLM">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="151" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="153" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{8443ADD4-6FBE-4707-9458-0269953A9950}" interactionclass="Fast" key="$ProcessId Object" name="AMEX-ImmersiveBrowser-CreateNewBlankPage" sqmid="1027" tags="MoSh IE Core Navigation">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="103" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="115" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{be2d56f0-a230-483e-a557-18c0f3965d9f}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-HistoryByDateSwitchView" sqmid="6" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="201" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="202" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{ddf6eb3b-20e9-4c7a-b710-075f1be77a7e}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-HistoryBySiteSwitchView" sqmid="7" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="203" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="204" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{f8aa262c-04f1-4a2c-970f-38c38b0c145d}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-HistoryByMostVisitedSwitchView" sqmid="8" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="205" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="206" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{a8d79949-5ea7-4351-adb9-68b503d8fcfd}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-HistoryByOrderSwitchView" sqmid="9" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="207" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="208" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{f50c2ac2-d426-431b-ac93-49a4fea7a5eb}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-HistorySearchSwitchView" sqmid="10" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="209" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="210" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{c80892e1-5fd9-46bf-98d4-1943461c319e}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-FavCenterOpen" sqmid="11" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="211" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="212" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{c77420ff-4b38-4472-8b17-7a719567f692}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-FavCenterClose" sqmid="12" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="213" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="214" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{10cc18b0-ea19-4925-a59d-9f77419d54be}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-MenuExpand" sqmid="13" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="301" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="302" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{17f143be-112b-421f-9ad4-5ab71254627a}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-MenuShrink" sqmid="14" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="303" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="304" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{14227011-10b1-4a65-991d-20f725d068f3}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-QuickPickSwitch" sqmid="16" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="401" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="402" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{6a346b1d-3805-4c02-945a-4a4cc2fd28db}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-QuickPickShow" sqmid="17" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="403" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="404" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{ba18b340-e296-44cc-b506-de5c38d1ba74}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-QuickPickHide" sqmid="18" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="405" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="406" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{d8d639a0-cf4c-45fb-976a-e85ac4f1aa00}" interactionclass="Fast" key="$ProcessId Object" name="IEFrame-TabClose" sqmid="278" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="601" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="602" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{b7ff4988-ef58-48c1-b9f7-4a6ab35d13c2}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-FrameCreate" sqmid="279" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="603" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="604" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{a476dd83-9574-444d-9cb3-fb9506116cad}" interactionclass="Typical" key="Object" name="IEFrame-CreateHTMLPreview" sqmid="281" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="607" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="608" version="0"/>
+      </scenario>
+      <scenario guid="{72765883-14b6-4713-bd57-4f30078a560d}" interactionclass="Typical" key="$ProcessId" name="IEFrame-PopulateFeedsMenu" sqmid="282" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="609" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="610" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{b2a4ebe0-4069-4013-9a97-a7a12889b07e}" interactionclass="Fast" key="$ProcessId Object" name="IEFrame-CreateTabPreview" sqmid="284" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="613" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="614" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{9ceeb9f8-5731-4aa8-87f2-a8d9cd330eb7}" interactionclass="Fast" key="$ProcessId Object" name="IEFrame-FindHit" sqmid="285" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="615" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="616" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{4c1bae73-39c1-4de2-a6fc-26d1bd5f4fcb}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-HighlightHit" sqmid="286" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="617" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="618" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{60640dca-91a8-43cd-bc5e-60c47efbea3e}" interactionclass="Instant" key="$ProcessId Object" name="IEFrame-Search-ProcessSuggestions" sqmid="287" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="619" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="620" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{08536468-2c92-4dfb-a6a8-8f24a43806c1}" interactionclass="Instant" key="$ProcessId Object" name="IEFrame-Search-ProcessImages" sqmid="288" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="621" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="622" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{fcd2bd57-1e87-4782-b447-84af81ef10cd}" interactionclass="Fast" key="$ProcessId Object" name="IEFRAME-ULV-CANCELEDQUERY" sqmid="465" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="623" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="629" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{877ae9f9-326c-46f1-98b1-0c94c846c204}" interactionclass="Responsive" key="$ProcessId Object" name="IEFRAME-ULV-DISPLAYTIME-FULL" sqmid="467" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="623" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="631" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{f125f0b9-17ae-4ffc-b49f-79da5680b111}" interactionclass="Responsive" key="$ProcessId Object" name="IEFRAME-ULV-DROPDOWN-DISPLAYTIME-FULL" sqmid="472" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="625" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="631" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{fa6a6d63-2101-463d-b3d9-c7f2b5f0f23e}" interactionclass="Responsive" key="Object" name="IEFRAME-PRINT-DIALOG" sqmid="636" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="639" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="640" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{8374798a-464d-4e9a-b21f-baf43a7a163f}" interactionclass="Fast" key="$ProcessId Object" name="IEFrame-Immersive-CreateTabThumbnail" sqmid="1296" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="650" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="651" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{9b5929db-d723-459d-aca6-7fc0fd1f57d4}" interactionclass="Fast" key="$ProcessId Object" name="IEFrame-Superbar-CreateTabThumbnail" sqmid="1297" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="652" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="653" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{79b33b02-9d9d-42c3-8d47-841dd7c156a6}" interactionclass="Instant" key="$ProcessId Object" name="IEFrame-Tearoff-Visual" sqmid="707" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="700" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="701" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{688f3d4b-44ff-443c-8f20-bd4861552baf}" interactionclass="Typical" key="$ProcessId Object" name="IEFrame-Tearoff-DragToNewWindow-FrameProc" sqmid="708" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="702" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="703" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{d8aa9073-f2d9-4566-92b5-65a3367f628c}" interactionclass="Fast" key="$ProcessId Object" name="IEFrame-Tearoff-DragToOtherWindow-FrameProc" sqmid="709" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="704" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="705" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{74f7eac8-b53b-4675-9d80-99abda086dd9}" interactionclass="Typical" key="Object" name="IEFrame-Tearoff-DragToNewWindow-TabProc" sqmid="710" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="711" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="710" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{325950da-9233-4c48-8fd4-b09e562a056f}" interactionclass="Fast" key="Object" name="IEFrame-Tearoff-DragToOtherWindow-TabProc" sqmid="711" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="717" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="710" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{b40053b9-7214-4596-9533-cce3f4e4d484}" interactionclass="Fast" key="$ProcessId Object" name="IEFrame-DropLinkOnTab" sqmid="712" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="706" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="707" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{1c06d743-71da-4dfb-9b9d-713e44d9ab72}" interactionclass="Instant" key="$ProcessId Object" name="IEFrame-BeginRearrangingTabs" sqmid="713" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="708" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="709" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{047f1f8d-2ff2-4bbb-a7a9-6f1fb5a9433a}" interactionclass="Instant" key="Object" name="IEFrame-TabFastClose" sqmid="734" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="641" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="642" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{ddbc645a-60bd-4be1-bf60-4bd546520e51}" interactionclass="Instant" key="Object" name="IEFrame-TabFastCloseWithUI" sqmid="735" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="641" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="643" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{69cda290-e942-4c62-b73d-7a2d36683c48}" interactionclass="Fast" key="Object" name="IEFrame-FrameFastClose" sqmid="736" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="644" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="645" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{36c3b0b8-10dc-4846-86fb-8bde14c84a0e}" interactionclass="Fast" key="Object" name="IEFrame-FrameFastCloseWithUI" sqmid="737" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="644" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="646" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{9c68ddd4-1e81-44e6-a76c-42200bd0368d}" interactionclass="Fast" key="Object" name="IEFrame-TabCloseWithUI" sqmid="738" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="601" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="647" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{e90a67ea-be50-4dd3-8709-eaee45e77db7}" interactionclass="Fast" key="$ProcessId Object" name="IEFrame-FindFirstHit" sqmid="856" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="712" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="713" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{d3c05fc6-c509-4622-a3c4-012a0882adbf}" interactionclass="Continuous" key="$ProcessId Object" name="IEFrame-MatchAndHighlightHits" sqmid="857" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="714" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="715" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{4e2409a1-f65a-41eb-b2e6-d97dfb5bd562}" interactionclass="Continuous" key="$ProcessId Object" name="IEFrame-MatchAndHighlightHitsCancelled" sqmid="858" tags="IE">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="714" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="716" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{E536E2F0-339F-4798-B77B-B42DB4047EB3}" interactionclass="Fast" key="$ProcessId Object" name="AMEX-ImmersiveBrowser-LaunchQSAUnfiltered" sqmid="1026" tags="MoSh IE Core Navigation">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="908" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="909" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{29A532B4-7D62-4090-BA38-3D91331A7925}" interactionclass="Continuous" key="$ProcessId Object" name="AMEX-ImmersiveBrowser-LaunchQSAUnfilteredCancelled" sqmid="1072" tags="MoSh IE Core Navigation">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="908" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="910" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{3FF27F28-4F7F-424B-BD2B-2BB11C19932F}" interactionclass="Fast" key="$ProcessId Object" name="AMEX-ImmersiveBrowser-LaunchNavBar" sqmid="1025" tags="MoSh IE Core Navigation">
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="start" value="808" version="0"/>
+        <event provider="{b2a40f1f-a05a-4dfd-886a-4c4f18c4334c}" type="stop" value="809" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

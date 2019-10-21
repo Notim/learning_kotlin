@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{717c7e01-6975-4df2-91be-126ea98b83af}" interactionclass="Captive" key="$ProcessId" name="Shell-HealthCenterIconInitialize" sqmid="267" tags="Shell UIC">
+        <event provider="{588C5C5A-FFC5-44A2-9A7F-D5E8DBE6EFD7}" type="start" value="1000" version="0"/>
+        <event provider="{588C5C5A-FFC5-44A2-9A7F-D5E8DBE6EFD7}" type="stop" value="1001" version="0"/>
+      </scenario>
+      <scenario guid="{d0950aa7-821a-4a14-b674-379d04fd417c}" interactionclass="Typical" key="$ProcessId" name="Shell-HealthCenterRichTooltipOpen" sqmid="254" tags="Shell UIC">
+        <event provider="{588C5C5A-FFC5-44A2-9A7F-D5E8DBE6EFD7}" type="start" value="114" version="0"/>
+        <event provider="{588C5C5A-FFC5-44A2-9A7F-D5E8DBE6EFD7}" type="stop" value="115" version="0"/>
+      </scenario>
+      <scenario guid="{7103f178-fdf9-4937-9311-5784ee2a857a}" interactionclass="Typical" key="$ProcessId" name="Shell-HealthCenterFlyoutOpen" sqmid="253" tags="Shell UIC">
+        <event provider="{588C5C5A-FFC5-44A2-9A7F-D5E8DBE6EFD7}" type="start" value="116" version="0"/>
+        <event provider="{588C5C5A-FFC5-44A2-9A7F-D5E8DBE6EFD7}" type="stop" value="117" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

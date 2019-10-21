@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@1,0,0,0,0" guid="{214cb13e-1e7e-4298-834e-77ec6495cb75}" interactionclass="Captive" key="DeviceID" name="DeviceStage-First-Connect" sqmid="451" tags="DeviceStage Devices">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="18923" version="0"/>
+        <event provider="{728b8c72-0f0f-4071-9bcc-27cb3b6dacbe}" type="stop" value="28" version="0"/>
+      </scenario>
+      <scenario digestedkey="@1,0,0,0,0" guid="{55255c65-c64d-4c2f-99e7-4a34dcbf7259}" interactionclass="Captive" key="DeviceID" name="DeviceStage-Subsequent-Connect" sqmid="452" tags="DeviceStage Devices">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="18923" version="0"/>
+        <event provider="{728b8c72-0f0f-4071-9bcc-27cb3b6dacbe}" type="stop" value="29" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

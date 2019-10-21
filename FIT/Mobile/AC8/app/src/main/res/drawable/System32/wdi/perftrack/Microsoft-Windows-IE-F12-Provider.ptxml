@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@8,0,0,4,0" guid="{747cb543-8fd5-4ab7-9883-d18e394f20c9}" interactionclass="Typical" key="$ProcessId Key" name="F12-Debugger-OpenDocument" sqmid="1640" tags="F12,IE,Debugger">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="308" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="309" version="0"/>
+      </scenario>
+      <scenario guid="{a39b2451-0c76-4f13-9571-d0f5b486bec6}" interactionclass="Continuous" key="$ProcessId" name="F12-Header-LaunchTool" sqmid="1654" tags="IE, F12, Header, Launch">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="905" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="906" version="0"/>
+      </scenario>
+      <scenario guid="{438119fc-b9a9-413c-a246-6be2498b4cd2}" interactionclass="Continuous" key="$ProcessId" name="F12-Network-LaunchTool" sqmid="1648" tags="IE, F12, Network, Launch">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="907" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="908" version="0"/>
+      </scenario>
+      <scenario guid="{ed012e38-b08b-4ed0-8827-37121127b342}" interactionclass="Continuous" key="$ProcessId" name="F12-Profiler-LaunchTool" sqmid="1649" tags=" IE, F12, Profiler, Launch ">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="909" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="910" version="0"/>
+      </scenario>
+      <scenario guid="{62618d54-a1e0-4c52-91f9-5fbbf57f0b36}" interactionclass="Continuous" key="$ProcessId" name="F12-Console-LaunchTool" sqmid="1653" tags="IE, F12, Console, Launch ">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="911" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="912" version="0"/>
+      </scenario>
+      <scenario guid="{39a765fe-2db4-46d4-96b8-4c4261c18fc2}" interactionclass="Continuous" key="$ProcessId" name="F12-DOMExplorer-LaunchTool" sqmid="1647" tags="IE, F12, DOM Explorer, Launch">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="913" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="914" version="0"/>
+      </scenario>
+      <scenario guid="{14947151-ff49-4c13-96fb-ba41ea14d6a1}" interactionclass="Continuous" key="$ProcessId" name="F12-Debugger-LaunchTool" sqmid="1646" tags="IE, F12, Debugger, Launch">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="915" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="916" version="0"/>
+      </scenario>
+      <scenario guid="{67859a23-c6b2-406d-832e-9bc7df188301}" interactionclass="Continuous" key="$ProcessId" name="F12-Emulation-LaunchTool" sqmid="1650" tags=" IE, F12, Emulation, Launch ">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="917" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="918" version="0"/>
+      </scenario>
+      <scenario guid="{c32533aa-83ce-4894-9617-204c412a0747}" interactionclass="Continuous" key="$ProcessId" name="F12-Memory-LaunchTool" sqmid="1651" tags="IE, F12, Memory, Launch">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="921" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="922" version="0"/>
+      </scenario>
+      <scenario guid="{054e9611-9895-43b1-b85f-eef84fade64c}" interactionclass="Continuous" key="$ProcessId" name="F12-VisualProfiler-LaunchTool" sqmid="1652" tags="IE, F12, Visual Profiler, UI Responsiveness, Launch ">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="923" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="924" version="0"/>
+      </scenario>
+      <scenario guid="{dda4887b-a735-43ac-a335-c32f730cb8d6}" interactionclass="Typical" key="$ProcessId" name="F12-DOMExplorer-StylesPane-Load" sqmid="1664" tags="IE, F12, DOM Explorer">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="521" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="522" version="0"/>
+      </scenario>
+      <scenario guid="{64a43b71-ec5c-4e66-ba1f-7ff760eecbb4}" interactionclass="Typical" key="$ProcessId" name="F12-DOMExplorer-ComputedPane-Load" sqmid="1665" tags=" IE, F12, DOM Explorer">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="527" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="528" version="0"/>
+      </scenario>
+      <scenario guid="{ce5764b9-5cca-4d44-9123-75c6a9470411}" interactionclass="Typical" key="$ProcessId" name="F12-DOMExplorer-TreeItem-Expand" sqmid="1668" tags="IE, F12, DOM Explorer">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="525" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="526" version="0"/>
+      </scenario>
+      <scenario guid="{37be6b40-1759-4c6c-873d-8e426e72ccd9}" interactionclass="Captive" key="$ProcessId" name="F12-Memory-Snapshot-Take" sqmid="1669" tags="IE, F12, Memory">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="201" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="202" version="0"/>
+      </scenario>
+      <scenario guid="{069f3e8b-18a6-46da-8a53-77039b73e5ae}" interactionclass="Extended" key="$ProcessId" name="F12-VisualProfiler-Process" sqmid="1671" tags="IE, F12, VisualProfiler">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="105" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="106" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{a78ff9e5-457c-486c-8498-f2c7719c6ac3}" interactionclass="Fast" key="$ProcessId Key" name="F12-Console-AutoComplete" sqmid="1663" tags="IE, F12, Console">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="429" version="1"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="428" version="1"/>
+      </scenario>
+      <scenario guid="{4a6d7e07-e41d-4013-8c87-027675a4a0dd}" interactionclass="Extended" key="$ProcessId" name="F12-Memory-Snapshot-Diff" sqmid="1670" tags="IE, F12, Memory">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="219" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="220" version="0"/>
+      </scenario>
+      <scenario guid="{b9f2007b-c050-4d08-908d-17718d53e56e}" interactionclass="Extended" key="$ProcessId" name="F12-Memory-Snapshot-Process" sqmid="1672" tags=" IE, F12, Memory ">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="217" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="218" version="0"/>
+      </scenario>
+      <scenario guid="{768bb19c-6eae-4dec-817d-e1630122b03e}" interactionclass="Responsive" key="$ProcessId" name="F12-DOMExplorer-ShowTool" sqmid="1690" tags="IE, F12, DOMExplorer, Show">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="933" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="934" version="0"/>
+      </scenario>
+      <scenario guid="{787772c5-5e45-4277-93c2-7eb9e32a2230}" interactionclass="Responsive" key="$ProcessId" name="F12-Debugger-ShowTool" sqmid="1688" tags="IE, F12, Debugger, Show">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="935" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="936" version="0"/>
+      </scenario>
+      <scenario guid="{016f66e0-29fd-4212-b88e-c5f5fccda33e}" interactionclass="Responsive" key="$ProcessId" name="F12-Console-ShowTool" sqmid="1689" tags="IE, F12, Console, Show">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="931" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="932" version="0"/>
+      </scenario>
+      <scenario guid="{154e9979-be24-4cf0-a61d-27fe6992d120}" interactionclass="Responsive" key="$ProcessId" name="F12-VisualProfiler-ShowTool" sqmid="1691" tags="IE, F12, VisualProfiler, Show">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="943" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="944" version="0"/>
+      </scenario>
+      <scenario guid="{ed47ccab-d390-4838-9357-29322549f0a8}" interactionclass="Instant" key="$ProcessId" name="F12-Memory-ShowTool" sqmid="1692" tags="IE, F12, Memory, Show">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="941" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="942" version="0"/>
+      </scenario>
+      <scenario guid="{ec48326c-e9ec-4728-804d-734bf1eecf15}" interactionclass="Responsive" key="$ProcessId" name="F12-Emulation-ShowTool" sqmid="1693" tags="IE, F12, Emulation, Show">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="937" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="938" version="0"/>
+      </scenario>
+      <scenario guid="{68e05848-549d-46af-a809-9c8787981a0d}" interactionclass="Typical" key="$ProcessId" name="F12-Popup-ShowTool" sqmid="1694" tags="IE, F12, Popup, Show">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="939" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="940" version="0"/>
+      </scenario>
+      <scenario guid="{9af2fdfb-1b33-47fa-ab96-b277ecfc244d}" interactionclass="Typical" key="$ProcessId" name="F12-Popup-Launch" sqmid="1695" tags="IE, F12, Popup, Launch">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="925" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="926" version="0"/>
+      </scenario>
+      <scenario guid="{bd299ce4-622b-47fa-b9f7-616bbc3384f5}" interactionclass="Responsive" key="$ProcessId" name="F12-Debugger-LoadAsyncFrames" sqmid="1704" tags="F12, Debugger, Async">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="386" version="0"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="387" version="0"/>
+      </scenario>
+      <scenario guid="{46b21f1a-81e1-4b88-900d-db77c2795006}" interactionclass="Fast" key="$ProcessId" name="F12-Debugger-AutoComplete" sqmid="1707" tags="IE, F12, Debugger">
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="start" value="380" version="1"/>
+        <event provider="{D17FFF2F-392D-478C-A41D-737A216EB2A4}" type="stop" value="379" version="1"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

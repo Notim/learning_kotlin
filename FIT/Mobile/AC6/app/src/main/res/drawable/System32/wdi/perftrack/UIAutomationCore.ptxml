@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{96b21e9f-d018-4bb9-a65d-53871b562734}" interactionclass="Responsive" key="$ProcessId" name="UIAutomationCore-BuildUpdatedCache" sqmid="156" tags="UIP">
+        <event provider="{820a42d8-38c4-465d-b64e-d7d56ea1d612}" type="start" value="117" version="0"/>
+        <event provider="{820a42d8-38c4-465d-b64e-d7d56ea1d612}" type="stop" value="118" version="0"/>
+      </scenario>
+      <scenario guid="{c1c7f970-8653-43e9-a457-70e0b44d6fef}" interactionclass="Fast" key="$ProcessId" name="UIAutomationCore_Event_Registration" sqmid="157" tags="UIP">
+        <event provider="{820a42d8-38c4-465d-b64e-d7d56ea1d612}" type="start" value="111" version="0"/>
+        <event provider="{820a42d8-38c4-465d-b64e-d7d56ea1d612}" type="stop" value="112" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

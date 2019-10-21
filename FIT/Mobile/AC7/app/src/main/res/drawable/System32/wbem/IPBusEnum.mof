@@ -1,0 +1,27 @@
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+//
+// WPP Generated File
+// PDB:  IPBusEnum.pdb
+// PDB:  Copied from $(_NTTREE)\Symbols.pri\Traceformat\
+//
+
+//ModuleName = CtlGuid	 (Init called in Function DllMain)
+[Dynamic,
+ Description("IPBusEnum Service Trace"),
+ guid("{6d04bf88-60a5-4d02-bc5c-94a20ba490ec}"),
+ locale("MS\\0x409")]
+class CtlGuidIPBusEnum : EventTrace
+{
+    [Description ("Enable Flags"),
+        ValueDescriptions{
+             "DUMMY Flag"},
+        DefineValues{
+             "DUMMY"},
+        Values{
+             "DUMMY"},
+        ValueMap{
+             "0x00000001"}
+    ]
+    uint32 Flags;
+};

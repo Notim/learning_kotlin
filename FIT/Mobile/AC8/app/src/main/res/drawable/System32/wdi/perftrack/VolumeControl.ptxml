@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@8,0,0,4,0" guid="{bf810b3a-f418-459c-8d31-e24172ecb9d0}" interactionclass="Typical" key="Object" name="AVCore-SndVolSSO-Flyout" sqmid="299" tags="Audio Shell">
+        <event provider="{07de7879-1c96-41ce-afbd-c659a0e8e643}" type="begin" value="102" version="0"/>
+        <event provider="{07de7879-1c96-41ce-afbd-c659a0e8e643}" type="end" value="103" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

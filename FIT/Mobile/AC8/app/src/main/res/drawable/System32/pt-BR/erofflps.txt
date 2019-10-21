@@ -1,0 +1,65 @@
+﻿
+Windows 7 Offline Privacy Statement for the Microsoft Error Reporting Service
+
+Para obter informações mais atualizadas sobre privacidade, consulte a Declaração de Privacidade do Windows 7 online em:
+
+http://go.microsoft.com/fwlink/?LinkId=104288
+
+FUNÇÕES DESSE RECURSO
+
+O Serviço de Relatório de Erros da Microsoft ajuda a Microsoft e os parceiros da Microsoft a diagnosticar problemas no software que você usa e a fornecer soluções. Nem todos os problemas têm solução, mas, quando há soluções disponíveis, elas são oferecidas como etapas para solucionar o problema relatado ou como atualizações a serem instaladas. Para ajudar a evitar problemas e a tornar o software mais confiável, algumas soluções também são incluídas nos service packs e nas futuras versões do software.
+
+O Serviço de Relatório de Erros da Microsoft também oferece o Reparo de Instalação, um serviço de relatório de erros que pode ser executado durante a instalação do Windows se ocorrer um problema.
+
+INFORMAÇÕES COLETADAS, PROCESSADAS OU TRANSMITIDAS
+
+Vários softwares da Microsoft, incluindo o Windows 7, foram criados para interagir com o serviço de relatório. Se ocorrer um problema em um desses softwares, você terá a opção de relatá-lo.  Se você hospedar máquinas virtuais usando um sistema operacional Windows, os relatórios gerados pelo sistema operacional Windows para o Serviço de Relatório de Erros da Microsoft poderá incluir informações sobre máquinas virtuais. 
+
+O serviço de relatório coleta informações que são úteis para diagnosticar e resolver o problema ocorrido, como:
+
+  *  Se o problema ocorreu no software ou no hardware
+  *  O tipo ou a gravidade do problema
+  *  Arquivos que ajudem a descrever o problema
+  *  Informações básicas de software e hardware
+  *  Possíveis problemas de desempenho e compatibilidade de software 
+
+Esses relatórios podem conter informações pessoais, sem intenção. Por exemplo, um relatório que contenha um instantâneo da memória do computador pode incluir seu nome, parte de um documento no qual você estava trabalhando ou dados enviados recentemente a um site. Se houver possibilidade de um relatório conter esse tipo de informação, o Windows perguntará se você deseja enviar essas informações, mesmo que você tenha ativado o recurso de relatório automático usando a opção “Configurações recomendadas” na instalação ou no Painel de Controle. Dessa forma, você terá a oportunidade de analisar o relatório antes de enviá-lo à Microsoft. Os relatórios que incluem arquivos e dados podem ser armazenados no computador até que você tenha a oportunidade de analisá-los ou enviá-los ou após enviá-los.
+
+Se um relatório de erros contiver informações pessoais, a Microsoft não usará essas informações para identificá-lo ou contatá-lo. Além disso, se você ativar o recurso de relatórios automático usando a opção "Configurações recomendadas" na instalação ou no Painel de Controle, o serviço de relatório enviará informações básicas sobre a localização dos problemas automaticamente, mas esses relatórios não terão os deatlhes descritos anteriormente.
+
+Depois que você envia um relatório, o serviço de relatório pode solicitar mais informações sobre o erro. Se optar por fornecer seu telefone ou endereço de email nesta informação, seu relatório de erros passará a ter uma identificação pessoal. A Microsoft poderá contatá-lo para solicitar informações adicionais que ajudem a resolver o problema relatado.
+
+O Serviço de Relatório de Erros da Microsoft gera um GUID que é armazenado no computador e enviado com os relatórios de erro para identificar com exclusividade o seu computador. O GUID é um número gerado aleatoriamente que não contém informações pessoais e não é usado para identificá-lo. Nós usamos o GUID para determinar a abrangência dos comentários recebidos e como priorizá-los. Por exemplo, o GUID permite que a Microsoft faça a distinção entre um cliente que tem o mesmo problema cem vezes e cem clientes que têm o mesmo problema uma vez.
+
+USO DAS INFORMAÇÕES
+
+A Microsoft usa as informações sobre erros e problemas para melhorar seus produtos e serviços, além dos softwares e hardwares de outros fabricantes que foram desenvolvidos para serem usados com esses produtos e serviços. Funcionários, prestadores de serviços, fornecedores e parceiros da Microsoft poderão ter acesso às informações coletadas pelos serviços de relatório. No entanto, eles somente usarão as informações para reparar ou melhorar os produtos e serviços da Microsoft e softwares e hardwares de terceiros que foram desenvolvidos para serem usados com produtos e serviços da Microsoft.
+
+A Microsoft pode compartilhar informações agregadas sobre erros e problemas. A Microsoft usa informações agregadas para análise estatística. As informações agregadas não contêm informações específicas dos relatórios individuais nem inclui informações pessoais ou confidenciais que possam ter sido coletadas em um relatório.
+
+Exceto conforme descrito nesta declaração, as informações pessoais fornecidas não serão transferidas para terceiros sem seu consentimento. Ocasionalmente, contratamos outras empresas para fornecer serviços limitados em nosso nome, como executar análises estatísticas. Forneceremos a essas empresas somente as informações pessoais de que precisam para executar o serviço; tais empresas são proibidas de usar essas informações para outros fins.
+
+A Microsoft pode acessar ou revelar informações suas, incluindo o conteúdo das suas comunicações, para: (a) estar em conformidade com a lei ou responder a solicitações ou processos legais; (b) proteger os direitos de propriedade da Microsoft ou de seus clientes, incluindo a imposição dos acordos ou diretivas que governam o uso do software; ou (c) agir de boa fé se o acesso ou a divulgação forem necesários para proteger a segurança pessoal dos funcionários e clientes da Microsoft ou do público.
+
+As informações coletadas ou enviadas à Microsoft pelo Windows 7 podem ser armazenadas ou processadas nos Estados Unidos ou em qualquer outro país no qual a Microsoft ou suas afiliadas, subsidiárias ou provedores de serviço tenham instalações. A Microsoft segue os princípios de "safe harbor" (porto seguro) estabelecidos pelo Departamento de Comércio dos EUA para coleta, uso e retenção de dados oriundos da União Européia. 
+
+ESCOLHA E CONTROLE
+
+Se você escolher as configurações recomendadas durante a instalação do Windows 7, informações básicas sobre erros serão enviadas automaticamente para a Microsoft. Se um relatório de erros mais detalhado for exigido, você será solicitado a analisá-lo antes de enviá-lo. Você pode alterar essa configuração a qualquer momento acessando a Central de Ações no Painel de Controle.
+
+PRÁTICAS DE SEGURANÇA
+
+A Microsoft tem o compromisso de proteger a segurança das suas informações. Usamos vários procedimentos e tecnologias de segurança para ajudar a proteger suas informações contra acesso, uso ou divulgação não autorizados. Por exemplo, armazenamos em sistemas de computadores com acesso limitado, localizados em instalações controladas, as informações fornecidas por você.
+
+PARA OBTER MAIS INFORMAÇÕES
+
+Se você tiver dúvidas sobre esta declaração de privacidade, contate-nos enviando-as online à seção de comentários sobre privacidade, no site:
+
+http://go.microsoft.com/fwlink/?LinkID=9634754
+
+Windows 7 Offline Privacy Statement for the Microsoft Error Reporting Service
+c/o Microsoft Privacy Response Center
+Microsoft Corporation
+One Microsoft Way
+Redmond, Washington 98052 USA
+

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{e612b99b-1dac-41f3-b7e8-68a4c6ed145c}" interactionclass="Captive" key="$ProcessId" name="WPD Driver Installation" sqmid="443" tags="Portable Devices">
+        <event provider="{AD5162D8-DAF0-4A25-88A7-01CBEB33902E}" type="start" value="100" version="0"/>
+        <event provider="{AD5162D8-DAF0-4A25-88A7-01CBEB33902E}" type="stop" value="101" version="0"/>
+      </scenario>
+      <scenario guid="{15280059-ee8b-4ce0-9c6f-6c25a874c466}" interactionclass="Continuous" key="$ProcessId" name="WPD MetaData Retrieval" sqmid="446" tags="Portable Devices">
+        <event provider="{AD5162D8-DAF0-4A25-88A7-01CBEB33902E}" type="start" value="102" version="0"/>
+        <event provider="{AD5162D8-DAF0-4A25-88A7-01CBEB33902E}" type="stop" value="103" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

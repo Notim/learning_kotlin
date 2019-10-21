@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{2795334d-1802-4810-a78b-0ba0d04a75e7}" interactionclass="Captive" key="$ProcessId" name="ProfSvc-CreateNewProfile" sqmid="258" tags="ProfSvc">
+        <event provider="{89B1E9F0-5AFF-44A6-9B44-0A07A7CE5845}" type="start" value="1001" version="0"/>
+        <event provider="{89B1E9F0-5AFF-44A6-9B44-0A07A7CE5845}" type="stop" value="1002" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

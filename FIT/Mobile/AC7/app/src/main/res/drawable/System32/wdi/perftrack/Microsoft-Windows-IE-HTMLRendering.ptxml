@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@a,0,0,8,0 @8,0,8,4,0" guid="{fdee9312-ddbc-4bfd-84cd-c6133184a894}" interactionclass="Captive" key="$ProcessId ObjectMSHTML Counter" name="MSHTML-Navigation" sqmid="20" tags="IE">
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="start" value="101" version="0"/>
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="stop" value="102" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0 @8,0,8,4,0" guid="{8fcc498d-b6cf-4dcd-94bc-d3eb36969fc2}" interactionclass="Captive" key="$ProcessId ObjectMSHTML Counter" name="MSHTML-Redirected-Navigation" sqmid="533" tags="IE">
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="start" value="105" version="0"/>
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="stop" value="102" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{dbac7a18-78ea-4d1b-83a4-dae8080482aa}" interactionclass="Responsive" key="$ProcessId ObjectXSSFilter" name="MSHTML-XSSFilter-RuleCheck" sqmid="838" tags="IE">
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="start" value="107" version="0"/>
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="stop" value="108" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{0c39ae3a-0ddd-4b7d-9118-954b2b588d45}" interactionclass="Responsive" key="$ProcessId ObjectXSSFilter" name="MSHTML-XSSFilter-Sanitize" sqmid="842" tags="IE">
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="start" value="109" version="0"/>
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="stop" value="110" version="0"/>
+      </scenario>
+      <scenario guid="{a47efff2-832d-4a3d-a483-e255ae351878}" interactionclass="Responsive" key="$ProcessId" name="Mshtml-TouchSelection-Invocation" sqmid="801" tags="IE Touch">
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="start" value="120" version="0"/>
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="stop" value="121" version="0"/>
+      </scenario>
+      <scenario guid="{93527639-bf03-4b55-8a9c-f44b2ce1334c}" interactionclass="Instant" key="$ProcessId" name="Mshtml-TouchSelection-Manipulation" sqmid="802" tags="IE Touch">
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="start" value="122" version="0"/>
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="stop" value="123" version="0"/>
+      </scenario>
+      <scenario guid="{9b82501c-ad21-4285-ac63-a7b4773df794}" interactionclass="Instant" key="$ProcessId" name="Mshtml-TouchSelection-Dismissal" sqmid="803" tags="IE Touch">
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="start" value="124" version="0"/>
+        <event provider="{ffdb9886-80f3-4540-aa8b-b85192217ddf}" type="stop" value="125" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

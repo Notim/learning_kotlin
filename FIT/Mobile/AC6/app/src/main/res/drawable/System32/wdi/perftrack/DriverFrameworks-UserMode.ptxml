@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{16137403-6883-44a6-997e-29ed8d0b7c43}" interactionclass="LongRunning" key="$ProcessId" name="UMDF-CoinstallerTotalDeviceInstallation" sqmid="486" tags="WDF">
+        <event provider="{2e35aaeb-857f-4beb-a418-2e6c0e54d988}" type="start" value="30000" version="1"/>
+        <event provider="{2e35aaeb-857f-4beb-a418-2e6c0e54d988}" type="stop" value="30001" version="1"/>
+      </scenario>
+      <scenario guid="{f1b6cc14-40cf-41a0-adcb-655cf33de1b1}" interactionclass="LongRunning" key="$ProcessId" name="UMDF-CoinstallerPreDeviceInstallation" sqmid="301" tags="WDF">
+        <event provider="{2e35aaeb-857f-4beb-a418-2e6c0e54d988}" type="start" value="30002" version="1"/>
+        <event provider="{2e35aaeb-857f-4beb-a418-2e6c0e54d988}" type="stop" value="30003" version="1"/>
+      </scenario>
+      <scenario guid="{d4bbec9a-e724-4138-af88-b71254819b32}" interactionclass="Typical" key="$ProcessId" name="UMDF-CoinstallerPostDeviceInstallation" sqmid="302" tags="WDF">
+        <event provider="{2e35aaeb-857f-4beb-a418-2e6c0e54d988}" type="start" value="30004" version="1"/>
+        <event provider="{2e35aaeb-857f-4beb-a418-2e6c0e54d988}" type="stop" value="30005" version="1"/>
+      </scenario>
+      <scenario guid="{79731058-4d7f-4899-8b5d-6af77058698a}" interactionclass="LongRunning" key="$ProcessId" name="UMDF-CoinstallerFrameworkUpdate" sqmid="303" tags="WDF">
+        <event provider="{2e35aaeb-857f-4beb-a418-2e6c0e54d988}" type="start" value="30006" version="1"/>
+        <event provider="{2e35aaeb-857f-4beb-a418-2e6c0e54d988}" type="stop" value="30007" version="1"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

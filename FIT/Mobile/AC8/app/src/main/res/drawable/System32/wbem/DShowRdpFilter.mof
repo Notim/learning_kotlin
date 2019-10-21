@@ -1,0 +1,39 @@
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+
+
+//ModuleName = RdpFilterTrace	 (Init called in Function DllMain)
+[Dynamic,
+ Description("TerminalServer-RDPFilter"),
+ guid("{8a99fd17-7d82-45d9-a965-f9a3f9fa85e5}"),
+ locale("MS\\0x409")]
+class RdpFilterTrace : EventTrace
+{
+    [Description ("Enable Flags"),
+        ValueDescriptions{
+             "TS_TRACE_LEVEL_NRM    Flag",
+             "TS_TRACE_LEVEL_ERROR  Flag",
+             "TS_TRACE_LEVEL_ASSERT Flag",
+             "TS_TRACE_LEVEL_TEST   Flag",
+             "TS_TRACE_LEVEL_DBG    Flag"},
+        DefineValues{
+             "TS_TRACE_LEVEL_NRM",
+             "TS_TRACE_LEVEL_ERROR",
+             "TS_TRACE_LEVEL_ASSERT",
+             "TS_TRACE_LEVEL_TEST",
+             "TS_TRACE_LEVEL_DBG"},
+        Values{
+             "TS_TRACE_LEVEL_NRM",
+             "TS_TRACE_LEVEL_ERROR",
+             "TS_TRACE_LEVEL_ASSERT",
+             "TS_TRACE_LEVEL_TEST",
+             "TS_TRACE_LEVEL_DBG"},
+        ValueMap{
+             "0x00000001",
+             "0x00000002",
+             "0x00000004",
+             "0x00000008",
+             "0x0000000F"}
+    ]
+    uint32 Flags;
+};

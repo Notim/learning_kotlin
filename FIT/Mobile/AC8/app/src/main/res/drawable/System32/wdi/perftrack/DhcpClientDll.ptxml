@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{83e5940c-e49a-4658-9a11-f44e7f479231}" interactionclass="Typical" key="InterfaceGuid" name="DHCPClient-Request-ACK" sqmid="408" tags="DHCPClient">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60010" version="0"/>
+      </scenario>
+      <scenario guid="{61b2142d-4703-4b03-81d3-b9d99e02c1c9}" interactionclass="Continuous" key="InterfaceGuid" name="DHCPClient-Discover-ACK" sqmid="409" tags="DHCPClient">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60011" version="0"/>
+      </scenario>
+      <scenario guid="{f3215a84-ce1a-4550-800b-26035c1a3c44}" interactionclass="LongRunning" key="InterfaceGuid" name="DHCPClient-Gateway-Reachability" sqmid="410" tags="DHCPClient">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60012" version="0"/>
+      </scenario>
+      <scenario guid="{14501e6f-1838-4d40-966c-b99462ac1a2e}" interactionclass="Instant" key="InterfaceGuid" name="DHCPClient-Static-IP-Configuration" sqmid="411" tags="DHCPClient">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60013" version="0"/>
+      </scenario>
+      <scenario guid="{d07cbf7e-133a-4f10-b256-51335c545ea9}" interactionclass="LongRunning" key="InterfaceGuid" name="DHCPClient-Fallback-IP" sqmid="412" tags="DHCPClient">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60014" version="0"/>
+      </scenario>
+      <scenario guid="{04f255b4-3813-463c-b92e-cf0ba639493b}" interactionclass="Extended" key="InterfaceGuid" name="DHCPClient-Request-ACK-with-Toggle" sqmid="413" tags="DHCPClient">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60015" version="0"/>
+      </scenario>
+      <scenario guid="{50e451d1-ba30-4705-9090-5ca10ae525b5}" interactionclass="LongRunning" key="InterfaceGuid" name="DHCPClient-INIT-REBOOT-Discover-ACK-with-Toggle" sqmid="414" tags="DHCPClient">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60016" version="0"/>
+      </scenario>
+      <scenario guid="{5b7abcf5-b56a-4d3c-81e0-9e385b95e894}" interactionclass="LongRunning" key="InterfaceGuid" name="DHCPClient-INIT-Discover-ACK-with-Toggle" sqmid="415" tags="DHCPClient">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60017" version="0"/>
+      </scenario>
+      <scenario guid="{a94224e6-4eb7-4e2d-8183-730a731adf69}" interactionclass="LongRunning" key="InterfaceGuid" name="DhcpClient-Ignore" sqmid="433" tags="DHCPClient">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60019" version="0"/>
+      </scenario>
+      <scenario guid="{29b3f945-b5f3-439e-916e-c7f4ba327208}" interactionclass="Continuous" key="InterfaceGuid" name="DHCPClient-V6-SARR" sqmid="416" tags="DHCPClient-V6">
+        <event provider="{6A1F2B00-6A90-4C38-95A5-5CAB3B056778}" type="begin" value="60002" version="0"/>
+        <event provider="{6A1F2B00-6A90-4C38-95A5-5CAB3B056778}" type="end" value="60000" version="0"/>
+      </scenario>
+      <scenario guid="{826072be-f6f3-4963-a2c0-427e407924cb}" interactionclass="Continuous" key="InterfaceGuid" name="DHCPClient-INIT-V6-Stateless" sqmid="417" tags="DHCPClient-V6">
+        <event provider="{6A1F2B00-6A90-4C38-95A5-5CAB3B056778}" type="begin" value="60002" version="0"/>
+        <event provider="{6A1F2B00-6A90-4C38-95A5-5CAB3B056778}" type="end" value="60001" version="0"/>
+      </scenario>
+      <scenario guid="{647aa132-b284-4986-b6f0-a596a370cbf0}" interactionclass="LongRunning" key="InterfaceGuid" name="DHCPClient-V6-Ignore" sqmid="434" tags="DHCPClient-V6">
+        <event provider="{6A1F2B00-6A90-4C38-95A5-5CAB3B056778}" type="begin" value="60002" version="0"/>
+        <event provider="{6A1F2B00-6A90-4C38-95A5-5CAB3B056778}" type="end" value="60003" version="0"/>
+      </scenario>
+      <scenario guid="{22ca27f4-42b9-427e-b120-253d5a47675b}" interactionclass="Continuous" key="InterfaceGuid" name="DHCPClient-MediaReconnect" sqmid="557" tags="Reconnect">
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="begin" value="60018" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60020" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

@@ -1,0 +1,47 @@
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+
+[Dynamic,
+ Description("Microsoft-Windows-P2P-CRP"),
+ guid("{444290f4-897e-4602-8ce9-6fdaa3e4f26f}"),
+ locale("MS\\0x409")]
+class CRP : EventTrace
+{
+    [Description ("Enable Flags"),
+        ValueDescriptions{
+             "CRP Flag"},
+        DefineValues{
+             "CRP"},
+        Values{
+             "CRP"},
+        ValueMap{
+             "0x00000001"}
+    ]
+    uint32 Flags;
+
+    [Description ("Levels"),
+        ValueDescriptions{
+            "Severe errors that need logging",
+            "Warnings such as allocation failure",
+            "Includes non-error cases",
+            "Detailed traces from intermediate steps" },
+         DefineValues{
+            "TRACE_LEVEL_ERROR",
+            "TRACE_LEVEL_WARNING"
+            "TRACE_LEVEL_INFORMATION",
+            "TRACE_LEVEL_VERBOSE" },
+        Values{
+            "Error",
+            "Warning",
+            "Information",
+            "Verbose" },
+        ValueMap{
+            "0x1",
+            "0x2",
+            "0x3",
+            "0x4" },
+        ValueType("index")
+    ]
+    uint32 Level;
+};
+

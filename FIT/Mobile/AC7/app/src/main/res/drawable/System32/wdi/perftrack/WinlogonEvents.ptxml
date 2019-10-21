@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{fad19cc3-fa93-4252-a7f0-6464a43c6603}" interactionclass="Extended" key="$Global" name="PerfTrack-SystemBoot" sqmid="484" tags="Boot">
+        <event provider="{96ac7637-5950-4a30-b8f7-e07e8e5734c1}" type="start" value="501" version="0"/>
+        <event provider="{dbe9b383-7cf3-4331-91cc-a3cb16a3b538}" type="stop" value="5007" version="0"/>
+      </scenario>
+      <scenario guid="{2db718c3-7f85-4fe2-a366-fe8c8ac40fe9}" interactionclass="Extended" key="$ProcessId" name="PerfTrack-BootLogon" sqmid="485" tags="Boot">
+        <event provider="{dbe9b383-7cf3-4331-91cc-a3cb16a3b538}" type="start" value="5001" version="0"/>
+        <event provider="{dbe9b383-7cf3-4331-91cc-a3cb16a3b538}" type="stop" value="5005" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

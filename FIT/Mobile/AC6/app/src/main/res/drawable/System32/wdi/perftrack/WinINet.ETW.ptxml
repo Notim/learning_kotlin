@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{00b9db55-8c7c-447c-8ed9-627862d0bfbd}" interactionclass="Typical" key="$ProcessId $ThreadId" name="WinINnet-AutoProxyDetermination" sqmid="450" tags="IE">
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="start" value="816" version="0"/>
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="stop" value="817" version="0"/>
+      </scenario>
+      <scenario guid="{64530355-54c6-4a34-9678-a7292d45bd8f}" interactionclass="Instant" key="$ProcessId $ThreadId" name="WinINet-AutoProxyHostIPLookup" sqmid="593" tags="IE">
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="start" value="820" version="0"/>
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="stop" value="821" version="0"/>
+      </scenario>
+      <scenario guid="{940d93d8-3671-4e3d-a978-d954a01d6d56}" interactionclass="Instant" key="$ProcessId $ThreadId" name="WinINet-AutoProxySwpadLookup" sqmid="594" tags="IE">
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="start" value="822" version="0"/>
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="stop" value="823" version="0"/>
+      </scenario>
+      <scenario guid="{3fa58874-7173-4bdd-8068-f5a0a51e1fee}" interactionclass="Responsive" key="$ProcessId $ThreadId" name="WinINet-AutoProxyKnownONDetection" sqmid="595" tags="IE">
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="start" value="824" version="0"/>
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="stop" value="825" version="0"/>
+      </scenario>
+      <scenario guid="{4d7f38a0-ce53-4a83-8cc3-4c26963b837a}" interactionclass="Extended" key="$ProcessId $ThreadId" name="WinINet-AutoProxyUnknownDetection" sqmid="596" tags="IE">
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="start" value="826" version="0"/>
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="stop" value="827" version="0"/>
+      </scenario>
+      <scenario guid="{a0a88dca-a6ab-4177-80ec-55639cbf3c23}" interactionclass="Typical" key="$ProcessId $ThreadId" name="WinINet-AutoProxyScriptDownload" sqmid="597" tags="IE">
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="start" value="828" version="0"/>
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="stop" value="829" version="0"/>
+      </scenario>
+      <scenario guid="{ac46a35e-d3dd-4864-8a6a-10866050afe6}" interactionclass="Responsive" key="$ProcessId $ThreadId" name="WinINet-AutoProxyAll" sqmid="601" tags="IE">
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="start" value="834" version="0"/>
+        <event provider="{43D1A55C-76D6-4f7e-995C-64C711E5CAFE}" type="stop" value="835" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

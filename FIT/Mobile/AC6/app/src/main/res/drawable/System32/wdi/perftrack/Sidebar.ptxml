@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{7e5cc95e-676d-44dc-a277-ed051ca3171c}" interactionclass="Responsive" key="$ProcessId" name="Shell-SidebarStartup" sqmid="268" tags="Shell Sidebar">
+        <event provider="{ed6b3ba8-95b2-4cf5-a317-d4af7003884c}" type="start" value="7" version="0"/>
+        <event provider="{ed6b3ba8-95b2-4cf5-a317-d4af7003884c}" type="stop" value="8" version="0"/>
+      </scenario>
+      <scenario guid="{49fc869f-c1d8-440e-bfda-1e24bcb1e26a}" interactionclass="Responsive" key="$ProcessId" name="Shell-SidebarStartup-FirstGadgetLoaded" sqmid="571" tags="Shell Sidebar">
+        <event provider="{ed6b3ba8-95b2-4cf5-a317-d4af7003884c}" type="start" value="28" version="0"/>
+        <event provider="{ed6b3ba8-95b2-4cf5-a317-d4af7003884c}" type="stop" value="29" version="0"/>
+      </scenario>
+      <scenario guid="{DCC44EB1-F8F0-4eeb-977C-DA6B0857CC14}" interactionclass="Typical" key="$ProcessId" name="Shell-SidebarShowDrawer" sqmid="27" tags="Shell">
+        <event provider="{ed6b3ba8-95b2-4cf5-a317-d4af7003884c}" type="start" value="1" version="0"/>
+        <event provider="{ed6b3ba8-95b2-4cf5-a317-d4af7003884c}" type="stop" value="6" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

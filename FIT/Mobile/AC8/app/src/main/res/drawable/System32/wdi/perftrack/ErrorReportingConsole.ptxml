@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@8,0,0,4,0" guid="{2667c956-9747-4de0-a712-0f8917e6cb18}" interactionclass="Fast" key="$ProcessId ResponseId" name="Feedback-PrsApplicableResponseIndividualCheck" sqmid="33" tags="Feedback">
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="start" value="103" version="0"/>
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="stop" value="104" version="0"/>
+      </scenario>
+      <scenario guid="{42d38533-1ab0-44f2-a75e-cffc570ccc0b}" interactionclass="Fast" key="$ProcessId" name="Feedback-PrsCplPageLayout" sqmid="34" tags="Feedback">
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="start" value="105" version="0"/>
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="stop" value="106" version="0"/>
+      </scenario>
+      <scenario guid="{3f7e673a-be3c-4ad9-ae08-cb8687f9ec97}" interactionclass="Captive" key="$ProcessId" name="Feedback-PrsSolutionRenderTime" sqmid="171" tags="Feedback">
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="start" value="107" version="0"/>
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="stop" value="108" version="0"/>
+      </scenario>
+      <scenario guid="{235cef7c-2647-41cc-babc-6c935fa4db84}" interactionclass="LongRunning" key="$ProcessId" name="Feedback-PrsCheckForSolutions" sqmid="170" tags="Feedback">
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="start" value="109" version="0"/>
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="stop" value="110" version="0"/>
+      </scenario>
+      <scenario guid="{6c31cebd-a30f-4053-931e-f0e816a5fe9b}" interactionclass="Typical" key="$ProcessId" name="Feedback-PrsReportDbPopulation" sqmid="315" tags="Feedback">
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="start" value="111" version="0"/>
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="stop" value="112" version="0"/>
+      </scenario>
+      <scenario guid="{4b75ee01-46d1-4b9a-a7cf-fc91c2d8b556}" interactionclass="Fast" key="$ProcessId" name="Feedback-PrsApplicabilityMonitorRepopulation" sqmid="316" tags="Feedback">
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="start" value="113" version="0"/>
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="stop" value="114" version="0"/>
+      </scenario>
+      <scenario guid="{04a3fe92-2c02-4362-9fdc-4b3555a1abf5}" interactionclass="Captive" key="$ProcessId" name="Feedback-PrsResponseDownloadTimeOfEvent" sqmid="317" tags="Feedback">
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="start" value="115" version="0"/>
+        <event provider="{017247f2-7e96-11dc-8314-0800200c9a66}" type="stop" value="116" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

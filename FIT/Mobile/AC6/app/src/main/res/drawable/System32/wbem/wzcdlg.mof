@@ -1,0 +1,27 @@
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+
+
+//ModuleName = WCNCFLASHCONFIG	 (Init called in Function DllMain)
+[Dynamic,
+ Description("Microsoft-Windows-WCN-Setup-Wizard"),
+ guid("{3839fd18-e42c-11d9-aeb7-00112f0c8c22}"),
+ locale("MS\\0x409")]
+class WCNCFLASHCONFIG : EventTrace
+{
+    [Description ("Enable Flags"),
+        ValueDescriptions{
+             "tagDefault Flag",
+             "tagFlashConfig Flag"},
+        DefineValues{
+             "tagDefault",
+             "tagFlashConfig"},
+        Values{
+             "tagDefault",
+             "tagFlashConfig"},
+        ValueMap{
+             "0x00000001",
+             "0x00000002"}
+    ]
+    uint32 Flags;
+};

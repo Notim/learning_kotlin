@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@8,0,0,4,0" guid="{be76eec1-b8a0-4933-b106-e6e526b5889d}" interactionclass="Typical" key="Object" name="AVCore-AudioDG-StartupLatency" sqmid="325" tags="Audio">
+        <event provider="{AE4BD3BE-F36F-45b6-8D21-BDD6FB832853}" type="begin" value="12" version="0"/>
+        <event provider="{AE4BD3BE-F36F-45b6-8D21-BDD6FB832853}" type="end" value="13" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

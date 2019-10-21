@@ -1,0 +1,1697 @@
+﻿<?xml version="1.0"?>
+<codes>
+	<code>
+		<charset>
+			<title>Unicode (BMP)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (men-ku-ten)</column>
+			</detail>
+			<range>
+				<subtitle>Basic Latin</subtitle>
+				<start>0020</start>
+				<end>007F</end>
+			</range>
+			<range>
+				<subtitle>Latin-1 Supplement</subtitle>
+				<start>0080</start>
+				<end>00FF</end>
+			</range>
+			<range>
+				<subtitle>Latin Extended-A</subtitle>
+				<start>0100</start>
+				<end>017F</end>
+			</range>
+			<range>
+				<subtitle>Latin Extended-B</subtitle>
+				<start>0180</start>
+				<end>024F</end>
+			</range>
+			<range>
+				<subtitle>IPA Extensions</subtitle>
+				<start>0250</start>
+				<end>02AF</end>
+			</range>
+			<range>
+				<subtitle>Spacing Modifier Letters</subtitle>
+				<start>02B0</start>
+				<end>02FF</end>
+			</range>
+			<range>
+				<subtitle>Combining Diacritical Marks</subtitle>
+				<start>0300</start>
+				<end>036F</end>
+			</range>
+			<range>
+				<subtitle>Greek and Coptic</subtitle>
+				<start>0370</start>
+				<end>03FF</end>
+			</range>
+			<range>
+				<subtitle>Cyrillic</subtitle>
+				<start>0400</start>
+				<end>04FF</end>
+			</range>
+			<range>
+				<subtitle>Cyrillic Supplementary</subtitle>
+				<start>0500</start>
+				<end>052F</end>
+			</range>
+			<range>
+				<subtitle>Armenian</subtitle>
+				<start>0530</start>
+				<end>058F</end>
+			</range>
+			<range>
+				<subtitle>Hebrew</subtitle>
+				<start>0590</start>
+				<end>05FF</end>
+			</range>
+			<range>
+				<subtitle>Arabic</subtitle>
+				<start>0600</start>
+				<end>06FF</end>
+			</range>
+			<range>
+				<subtitle>Syriac</subtitle>
+				<start>0700</start>
+				<end>074F</end>
+			</range>
+			<range>
+				<subtitle>Thaana</subtitle>
+				<start>0780</start>
+				<end>07BF</end>
+			</range>
+			<range>
+				<subtitle>Devanagari</subtitle>
+				<start>0900</start>
+				<end>097F</end>
+			</range>
+			<range>
+				<subtitle>Bengali</subtitle>
+				<start>0980</start>
+				<end>09FF</end>
+			</range>
+			<range>
+				<subtitle>Gurmukhi</subtitle>
+				<start>0A00</start>
+				<end>0A7F</end>
+			</range>
+			<range>
+				<subtitle>Gujarati</subtitle>
+				<start>0A80</start>
+				<end>0AFF</end>
+			</range>
+			<range>
+				<subtitle>Oriya</subtitle>
+				<start>0B00</start>
+				<end>0B7F</end>
+			</range>
+			<range>
+				<subtitle>Tamil</subtitle>
+				<start>0B80</start>
+				<end>0BFF</end>
+			</range>
+			<range>
+				<subtitle>Telugu</subtitle>
+				<start>0C00</start>
+				<end>0C7F</end>
+			</range>
+			<range>
+				<subtitle>Kannada</subtitle>
+				<start>0C80</start>
+				<end>0CFF</end>
+			</range>
+			<range>
+				<subtitle>Malayalam</subtitle>
+				<start>0D00</start>
+				<end>0D7F</end>
+			</range>
+			<range>
+				<subtitle>Sinhala</subtitle>
+				<start>0D80</start>
+				<end>0DFF</end>
+			</range>
+			<range>
+				<subtitle>Thai</subtitle>
+				<start>0E00</start>
+				<end>0E7F</end>
+			</range>
+			<range>
+				<subtitle>Lao</subtitle>
+				<start>0E80</start>
+				<end>0EFF</end>
+			</range>
+			<range>
+				<subtitle>Tibetan</subtitle>
+				<start>0F00</start>
+				<end>0FFF</end>
+			</range>
+			<range>
+				<subtitle>Myanmar</subtitle>
+				<start>1000</start>
+				<end>109F</end>
+			</range>
+			<range>
+				<subtitle>Georgian</subtitle>
+				<start>10A0</start>
+				<end>10FF</end>
+			</range>
+			<range>
+				<subtitle>Hangul Jamo</subtitle>
+				<start>1100</start>
+				<end>11FF</end>
+			</range>
+			<range>
+				<subtitle>Ethiopic</subtitle>
+				<start>1200</start>
+				<end>137F</end>
+			</range>
+			<range>
+				<subtitle>Cherokee</subtitle>
+				<start>13A0</start>
+				<end>13FF</end>
+			</range>
+			<range>
+				<subtitle>Unified Canadian Aboriginal Syllabics</subtitle>
+				<start>1400</start>
+				<end>167F</end>
+			</range>
+			<range>
+				<subtitle>Ogham</subtitle>
+				<start>1680</start>
+				<end>169F</end>
+			</range>
+			<range>
+				<subtitle>Runic</subtitle>
+				<start>16A0</start>
+				<end>16FF</end>
+			</range>
+			<range>
+				<subtitle>Tagalog</subtitle>
+				<start>1700</start>
+				<end>171F</end>
+			</range>
+			<range>
+				<subtitle>Hanunoo</subtitle>
+				<start>1720</start>
+				<end>173F</end>
+			</range>
+			<range>
+				<subtitle>Buhid</subtitle>
+				<start>1740</start>
+				<end>175F</end>
+			</range>
+			<range>
+				<subtitle>Tagbanwa</subtitle>
+				<start>1760</start>
+				<end>177F</end>
+			</range>
+			<range>
+				<subtitle>Khmer</subtitle>
+				<start>1780</start>
+				<end>17FF</end>
+			</range>
+			<range>
+				<subtitle>Mongolian</subtitle>
+				<start>1800</start>
+				<end>18AF</end>
+			</range>
+			<range>
+				<subtitle>Limbu</subtitle>
+				<start>1900</start>
+				<end>194F</end>
+			</range>
+			<range>
+				<subtitle>Tai Le</subtitle>
+				<start>1950</start>
+				<end>197F</end>
+			</range>
+			<range>
+				<subtitle>Khmer Symbols</subtitle>
+				<start>19E0</start>
+				<end>19FF</end>
+			</range>
+			<range>
+				<subtitle>Phonetic Extensions</subtitle>
+				<start>1D00</start>
+				<end>1D7F</end>
+			</range>
+			<range>
+				<subtitle>Latin Extended Additional</subtitle>
+				<start>1E00</start>
+				<end>1EFF</end>
+			</range>
+			<range>
+				<subtitle>Greek Extended</subtitle>
+				<start>1F00</start>
+				<end>1FFF</end>
+			</range>
+			<range>
+				<subtitle>General Punctuation</subtitle>
+				<start>2000</start>
+				<end>206F</end>
+			</range>
+			<range>
+				<subtitle>Superscripts and Subscripts</subtitle>
+				<start>2070</start>
+				<end>209F</end>
+			</range>
+			<range>
+				<subtitle>Currency Symbols</subtitle>
+				<start>20A0</start>
+				<end>20CF</end>
+			</range>
+			<range>
+				<subtitle>Combining Diacritical Marks for Symbols</subtitle>
+				<start>20D0</start>
+				<end>20FF</end>
+			</range>
+			<range>
+				<subtitle>Letterlike Symbols</subtitle>
+				<start>2100</start>
+				<end>214F</end>
+			</range>
+			<range>
+				<subtitle>Number Forms</subtitle>
+				<start>2150</start>
+				<end>218F</end>
+			</range>
+			<range>
+				<subtitle>Arrows</subtitle>
+				<start>2190</start>
+				<end>21FF</end>
+			</range>
+			<range>
+				<subtitle>Mathematical Operators</subtitle>
+				<start>2200</start>
+				<end>22FF</end>
+			</range>
+			<range>
+				<subtitle>Miscellaneous Technical</subtitle>
+				<start>2300</start>
+				<end>23FF</end>
+			</range>
+			<range>
+				<subtitle>Control Pictures</subtitle>
+				<start>2400</start>
+				<end>243F</end>
+			</range>
+			<range>
+				<subtitle>Optical Character Recognition</subtitle>
+				<start>2440</start>
+				<end>245F</end>
+			</range>
+			<range>
+				<subtitle>Enclosed Alphanumerics</subtitle>
+				<start>2460</start>
+				<end>24FF</end>
+			</range>
+			<range>
+				<subtitle>Box Drawing</subtitle>
+				<start>2500</start>
+				<end>257F</end>
+			</range>
+			<range>
+				<subtitle>Block Elements</subtitle>
+				<start>2580</start>
+				<end>259F</end>
+			</range>
+			<range>
+				<subtitle>Geometric Shapes</subtitle>
+				<start>25A0</start>
+				<end>25FF</end>
+			</range>
+			<range>
+				<subtitle>Miscellaneous Symbols</subtitle>
+				<start>2600</start>
+				<end>26FF</end>
+			</range>
+			<range>
+				<subtitle>Dingbats</subtitle>
+				<start>2700</start>
+				<end>27BF</end>
+			</range>
+			<range>
+				<subtitle>Miscellaneous Mathematical Symbols-A</subtitle>
+				<start>27C0</start>
+				<end>27EF</end>
+			</range>
+			<range>
+				<subtitle>Supplemental Arrows-A</subtitle>
+				<start>27F0</start>
+				<end>27FF</end>
+			</range>
+			<range>
+				<subtitle>Braille Patterns</subtitle>
+				<start>2800</start>
+				<end>28FF</end>
+			</range>
+			<range>
+				<subtitle>Supplemental Arrows-B</subtitle>
+				<start>2900</start>
+				<end>297F</end>
+			</range>
+			<range>
+				<subtitle>Miscellaneous Mathematical Symbols-B</subtitle>
+				<start>2980</start>
+				<end>29FF</end>
+			</range>
+			<range>
+				<subtitle>Supplemental Mathematical Operators</subtitle>
+				<start>2A00</start>
+				<end>2AFF</end>
+			</range>
+			<range>
+				<subtitle>Miscellaneous Symbols and Arrows</subtitle>
+				<start>2B00</start>
+				<end>2BFF</end>
+			</range>
+			<range>
+				<subtitle>CJK Radicals Supplement</subtitle>
+				<start>2E80</start>
+				<end>2EFF</end>
+			</range>
+			<range>
+				<subtitle>Kangxi Radicals</subtitle>
+				<start>2F00</start>
+				<end>2FDF</end>
+			</range>
+			<range>
+				<subtitle>Ideographic Description Characters</subtitle>
+				<start>2FF0</start>
+				<end>2FFF</end>
+			</range>
+			<range>
+				<subtitle>CJK Symbols and Punctuation</subtitle>
+				<start>3000</start>
+				<end>303F</end>
+			</range>
+			<range>
+				<subtitle>Hiragana</subtitle>
+				<start>3040</start>
+				<end>309F</end>
+			</range>
+			<range>
+				<subtitle>Katakana</subtitle>
+				<start>30A0</start>
+				<end>30FF</end>
+			</range>
+			<range>
+				<subtitle>Bopomofo</subtitle>
+				<start>3100</start>
+				<end>312F</end>
+			</range>
+			<range>
+				<subtitle>Hangul Compatibility Jamo</subtitle>
+				<start>3130</start>
+				<end>318F</end>
+			</range>
+			<range>
+				<subtitle>Kanbun</subtitle>
+				<start>3190</start>
+				<end>319F</end>
+			</range>
+			<range>
+				<subtitle>Bopomofo Extended</subtitle>
+				<start>31A0</start>
+				<end>31BF</end>
+			</range>
+			<range>
+				<subtitle>Katakana Phonetic Extensions</subtitle>
+				<start>31F0</start>
+				<end>31FF</end>
+			</range>
+			<range>
+				<subtitle>Enclosed CJK Letters and Months</subtitle>
+				<start>3200</start>
+				<end>32FF</end>
+			</range>
+			<range>
+				<subtitle>CJK Compatibility</subtitle>
+				<start>3300</start>
+				<end>33FF</end>
+			</range>
+			<range>
+				<subtitle>CJK Unified Ideographs Extension A</subtitle>
+				<start>3400</start>
+				<end>4DBF</end>
+			</range>
+			<range>
+				<subtitle>Yijing Hexagram Symbols</subtitle>
+				<start>4DC0</start>
+				<end>4DFF</end>
+			</range>
+			<range>
+				<subtitle>CJK Unified Ideographs</subtitle>
+				<start>4E00</start>
+				<end>9FFF</end>
+			</range>
+			<range>
+				<subtitle>Yi Syllables</subtitle>
+				<start>A000</start>
+				<end>A48F</end>
+			</range>
+			<range>
+				<subtitle>Yi Radicals</subtitle>
+				<start>A490</start>
+				<end>A4CF</end>
+			</range>
+			<range>
+				<subtitle>Hangul Syllables</subtitle>
+				<start>AC00</start>
+				<end>D7AF</end>
+			</range>
+			<range>
+				<subtitle>High Surrogates</subtitle>
+				<start>D800</start>
+				<end>DB7F</end>
+			</range>
+			<range>
+				<subtitle>High Private Use Surrogates</subtitle>
+				<start>DB80</start>
+				<end>DBFF</end>
+			</range>
+			<range>
+				<subtitle>Low Surrogates</subtitle>
+				<start>DC00</start>
+				<end>DFFF</end>
+			</range>
+			<range>
+				<subtitle>Private Use Area</subtitle>
+				<start>E000</start>
+				<end>F8FF</end>
+			</range>
+			<range>
+				<subtitle>CJK Compatibility Ideographs</subtitle>
+				<start>F900</start>
+				<end>FAFF</end>
+			</range>
+			<range>
+				<subtitle>Alphabetic Presentation Forms</subtitle>
+				<start>FB00</start>
+				<end>FB4F</end>
+			</range>
+			<range>
+				<subtitle>Arabic Presentation Forms-A</subtitle>
+				<start>FB50</start>
+				<end>FDFF</end>
+			</range>
+			<range>
+				<subtitle>Variation Selectors</subtitle>
+				<start>FE00</start>
+				<end>FE0F</end>
+			</range>
+			<range>
+				<subtitle>Combining Half Marks</subtitle>
+				<start>FE20</start>
+				<end>FE2F</end>
+			</range>
+			<range>
+				<subtitle>CJK Compatibility Forms</subtitle>
+				<start>FE30</start>
+				<end>FE4F</end>
+			</range>
+			<range>
+				<subtitle>Small Form Variants</subtitle>
+				<start>FE50</start>
+				<end>FE6F</end>
+			</range>
+			<range>
+				<subtitle>Arabic Presentation Forms-B</subtitle>
+				<start>FE70</start>
+				<end>FEFF</end>
+			</range>
+			<range>
+				<subtitle>Halfwidth and Fullwidth Forms</subtitle>
+				<start>FF00</start>
+				<end>FFEF</end>
+			</range>
+			<range>
+				<subtitle>Specials</subtitle>
+				<start>FFF0</start>
+				<end>FFFF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>Unicode (SMP)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (men-ku-ten)</column>
+			</detail>
+			<range>
+				<subtitle>Linear B Syllabary</subtitle>
+				<start>10000</start>
+				<end>1007F</end>
+			</range>
+			<range>
+				<subtitle>Linear B Ideograms</subtitle>
+				<start>10080</start>
+				<end>100FF</end>
+			</range>
+			<range>
+				<subtitle>Aegean Numbers</subtitle>
+				<start>10100</start>
+				<end>1013F</end>
+			</range>
+			<range>
+				<subtitle>Old Italic</subtitle>
+				<start>10300</start>
+				<end>1032F</end>
+			</range>
+			<range>
+				<subtitle>Gothic</subtitle>
+				<start>10330</start>
+				<end>1034F</end>
+			</range>
+			<range>
+				<subtitle>Ugaritic</subtitle>
+				<start>10380</start>
+				<end>1039F</end>
+			</range>
+			<range>
+				<subtitle>Deseret</subtitle>
+				<start>10400</start>
+				<end>1044F</end>
+			</range>
+			<range>
+				<subtitle>Shavian</subtitle>
+				<start>10450</start>
+				<end>1047F</end>
+			</range>
+			<range>
+				<subtitle>Osmanya</subtitle>
+				<start>10480</start>
+				<end>104AF</end>
+			</range>
+			<range>
+				<subtitle>Cypriot Syllabary</subtitle>
+				<start>10800</start>
+				<end>1083F</end>
+			</range>
+			<range>
+				<subtitle>Byzantine Musical Symbols</subtitle>
+				<start>1D000</start>
+				<end>1D0FF</end>
+			</range>
+			<range>
+				<subtitle>Musical Symbols</subtitle>
+				<start>1D100</start>
+				<end>1D1FF</end>
+			</range>
+			<range>
+				<subtitle>Tai Xuan Jing Symbols</subtitle>
+				<start>1D300</start>
+				<end>1D35F</end>
+			</range>
+			<range>
+				<subtitle>Mathematical Alphanumeric Symbols</subtitle>
+				<start>1D400</start>
+				<end>1D7FF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>Unicode (SIP)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (men-ku-ten)</column>
+			</detail>
+			<range>
+				<subtitle>CJK Unified Ideographs Extension B</subtitle>
+				<start>20000</start>
+				<end>2A6DF</end>
+			</range>
+			<range>
+				<subtitle>CJK Compatibility Ideographs Supplement</subtitle>
+				<start>2F800</start>
+				<end>2FA1F</end>
+			</range>
+			<range>
+				<subtitle>Tags</subtitle>
+				<start>E0000</start>
+				<end>E007F</end>
+			</range>
+			<range>
+				<subtitle>Variation Selectors Supplement</subtitle>
+				<start>E0100</start>
+				<end>E01EF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>Unicode (Plane15)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (men-ku-ten)</column>
+			</detail>
+			<range>
+				<subtitle>Supplementary Private Use Area-A</subtitle>
+				<start>F0000</start>
+				<end>FFFFF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>Unicode (Plane16)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (men-ku-ten)</column>
+			</detail>
+			<range>
+				<subtitle>Supplementary Private Use Area-B</subtitle>
+				<start>100000</start>
+				<end>10FFFF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>Shift JIS</title>
+			<encoding>ShiftJIS</encoding>
+			<column>16</column>
+			<detail>
+				<column>Shift JIS</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>JIS X 0213 (men-ku-ten)</column>
+			</detail>
+			<range>
+				<subtitle>Half width Alpha</subtitle>
+				<start>20</start>
+				<end>FF</end>
+			</range>
+			<range>
+				<subtitle>Symbol</subtitle>
+				<start>8140</start>
+				<end>824E</end>
+			</range>
+			<range>
+				<subtitle>AlphaNum</subtitle>
+				<start>824F</start>
+				<end>829E</end>
+			</range>
+			<range>
+				<subtitle>Hiragana</subtitle>
+				<start>829F</start>
+				<end>833F</end>
+			</range>
+			<range>
+				<subtitle>Katakana</subtitle>
+				<start>8340</start>
+				<end>839E</end>
+			</range>
+			<range>
+				<subtitle>Greek</subtitle>
+				<start>839F</start>
+				<end>843F</end>
+			</range>
+			<range>
+				<subtitle>Russian</subtitle>
+				<start>8440</start>
+				<end>849E</end>
+			</range>
+			<range>
+				<subtitle>Box Drawing</subtitle>
+				<start>849F</start>
+				<end>873F</end>
+			</range>
+			<range>
+				<subtitle>Enclosed Alphanumerics</subtitle>
+				<start>8740</start>
+				<end>875E</end>
+			</range>
+			<range>
+				<subtitle>Unit symbol</subtitle>
+				<start>875F</start>
+				<end>877D</end>
+			</range>
+			<range>
+				<subtitle>Abbreviation/Enclosed</subtitle>
+				<start>877E</start>
+				<end>878F</end>
+			</range>
+			<range>
+				<subtitle>Mathematical Operation</subtitle>
+				<start>8790</start>
+				<end>889E</end>
+			</range>
+			<range>
+				<subtitle>Kanji1</subtitle>
+				<start>889F</start>
+				<end>989E</end>
+			</range>
+			<range>
+				<subtitle>Kanji2</subtitle>
+				<start>989F</start>
+				<end>F03F</end>
+			</range>
+			<range>
+				<subtitle>EUDC</subtitle>
+				<start>F040</start>
+				<end>FA39</end>
+			</range>
+			<range>
+				<subtitle>Kanji3</subtitle>
+				<start>FA40</start>
+				<end>FFFF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>JIS X 0208</title>
+			<encoding>JISX0208</encoding>
+			<column>10</column>
+			<detail>
+				<column>JIS X 0208 (ku-ten)</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+			</detail>
+			<range>
+				<subtitle></subtitle>
+				<start>1-1</start>
+				<end>94-94</end>
+			</range>
+		</charset>
+		<charset>
+			<title>JIS X 0212</title>
+			<encoding>JISX0212</encoding>
+			<column>10</column>
+			<detail>
+				<column>JIS X 0212 (ku-ten)</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+			</detail>
+			<range>
+				<subtitle></subtitle>
+				<start>1-1</start>
+				<end>94-94</end>
+			</range>
+		</charset>
+		<charset>
+			<title>JIS X 0213 (Plane1)</title>
+			<encoding>JISX0213</encoding>
+			<column>10</column>
+			<detail>
+				<column>JIS X 0213 (men-ku-ten)</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+			</detail>
+			<range>
+				<subtitle></subtitle>
+				<start>1-1-1</start>
+				<end>1-94-94</end>
+			</range>
+		</charset>
+		<charset>
+			<title>JIS X 0213 (Plane2)</title>
+			<encoding>JISX0213</encoding>
+			<column>10</column>
+			<detail>
+				<column>JIS X 0213 (men-ku-ten)</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+			</detail>
+			<range>
+				<subtitle></subtitle>
+				<start>2-1-1</start>
+				<end>2-94-94</end>
+			</range>
+		</charset>
+	</code>
+	<code0411>
+		<charset>
+			<title>Unicode (基本多言語面)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (面区点)</column>
+			</detail>
+			<range>
+				<subtitle>基本ラテン</subtitle>
+				<start>0020</start>
+				<end>007F</end>
+			</range>
+			<range>
+				<subtitle>ラテン 1 補助</subtitle>
+				<start>0080</start>
+				<end>00FF</end>
+			</range>
+			<range>
+				<subtitle>ラテン拡張 A</subtitle>
+				<start>0100</start>
+				<end>017F</end>
+			</range>
+			<range>
+				<subtitle>ラテン拡張 B</subtitle>
+				<start>0180</start>
+				<end>024F</end>
+			</range>
+			<range>
+				<subtitle>IPA 拡張</subtitle>
+				<start>0250</start>
+				<end>02AF</end>
+			</range>
+			<range>
+				<subtitle>スペｰス調整文字</subtitle>
+				<start>02B0</start>
+				<end>02FF</end>
+			</range>
+			<range>
+				<subtitle>結合分音記号</subtitle>
+				<start>0300</start>
+				<end>036F</end>
+			</range>
+			<range>
+				<subtitle>ギリシャおよびコプト</subtitle>
+				<start>0370</start>
+				<end>03FF</end>
+			</range>
+			<range>
+				<subtitle>キリル</subtitle>
+				<start>0400</start>
+				<end>04FF</end>
+			</range>
+			<range>
+				<subtitle>キリル補助</subtitle>
+				<start>0500</start>
+				<end>052F</end>
+			</range>
+			<range>
+				<subtitle>アルメニア</subtitle>
+				<start>0530</start>
+				<end>058F</end>
+			</range>
+			<range>
+				<subtitle>ヘブライ</subtitle>
+				<start>0590</start>
+				<end>05FF</end>
+			</range>
+			<range>
+				<subtitle>アラビア</subtitle>
+				<start>0600</start>
+				<end>06FF</end>
+			</range>
+			<range>
+				<subtitle>シリア</subtitle>
+				<start>0700</start>
+				<end>074F</end>
+			</range>
+			<range>
+				<subtitle>ターナ</subtitle>
+				<start>0780</start>
+				<end>07BF</end>
+			</range>
+			<range>
+				<subtitle>デバナガリ</subtitle>
+				<start>0900</start>
+				<end>097F</end>
+			</range>
+			<range>
+				<subtitle>ベンガル</subtitle>
+				<start>0980</start>
+				<end>09FF</end>
+			</range>
+			<range>
+				<subtitle>グルムキー</subtitle>
+				<start>0A00</start>
+				<end>0A7F</end>
+			</range>
+			<range>
+				<subtitle>グジャラート</subtitle>
+				<start>0A80</start>
+				<end>0AFF</end>
+			</range>
+			<range>
+				<subtitle>オリヤー</subtitle>
+				<start>0B00</start>
+				<end>0B7F</end>
+			</range>
+			<range>
+				<subtitle>タミール</subtitle>
+				<start>0B80</start>
+				<end>0BFF</end>
+			</range>
+			<range>
+				<subtitle>テルグ</subtitle>
+				<start>0C00</start>
+				<end>0C7F</end>
+			</range>
+			<range>
+				<subtitle>カナラ</subtitle>
+				<start>0C80</start>
+				<end>0CFF</end>
+			</range>
+			<range>
+				<subtitle>マラヤラム</subtitle>
+				<start>0D00</start>
+				<end>0D7F</end>
+			</range>
+			<range>
+				<subtitle>シンハラ</subtitle>
+				<start>0D80</start>
+				<end>0DFF</end>
+			</range>
+			<range>
+				<subtitle>タイ</subtitle>
+				<start>0E00</start>
+				<end>0E7F</end>
+			</range>
+			<range>
+				<subtitle>ラオス</subtitle>
+				<start>0E80</start>
+				<end>0EFF</end>
+			</range>
+			<range>
+				<subtitle>チベット</subtitle>
+				<start>0F00</start>
+				<end>0FFF</end>
+			</range>
+			<range>
+				<subtitle>ミャンマー</subtitle>
+				<start>1000</start>
+				<end>109F</end>
+			</range>
+			<range>
+				<subtitle>グルジア</subtitle>
+				<start>10A0</start>
+				<end>10FF</end>
+			</range>
+			<range>
+				<subtitle>ハングル字母</subtitle>
+				<start>1100</start>
+				<end>11FF</end>
+			</range>
+			<range>
+				<subtitle>エチオピア</subtitle>
+				<start>1200</start>
+				<end>137F</end>
+			</range>
+			<range>
+				<subtitle>チェロキー</subtitle>
+				<start>13A0</start>
+				<end>13FF</end>
+			</range>
+			<range>
+				<subtitle>統合カナダ先住民音節</subtitle>
+				<start>1400</start>
+				<end>167F</end>
+			</range>
+			<range>
+				<subtitle>オガム</subtitle>
+				<start>1680</start>
+				<end>169F</end>
+			</range>
+			<range>
+				<subtitle>ルーン</subtitle>
+				<start>16A0</start>
+				<end>16FF</end>
+			</range>
+			<range>
+				<subtitle>タガログ</subtitle>
+				<start>1700</start>
+				<end>171F</end>
+			</range>
+			<range>
+				<subtitle>ハヌノオ</subtitle>
+				<start>1720</start>
+				<end>173F</end>
+			</range>
+			<range>
+				<subtitle>ブヒッド</subtitle>
+				<start>1740</start>
+				<end>175F</end>
+			</range>
+			<range>
+				<subtitle>タグバヌア</subtitle>
+				<start>1760</start>
+				<end>177F</end>
+			</range>
+			<range>
+				<subtitle>クメール</subtitle>
+				<start>1780</start>
+				<end>17FF</end>
+			</range>
+			<range>
+				<subtitle>モンゴル</subtitle>
+				<start>1800</start>
+				<end>18AF</end>
+			</range>
+			<range>
+				<subtitle>リンブ</subtitle>
+				<start>1900</start>
+				<end>194F</end>
+			</range>
+			<range>
+				<subtitle>タイレ</subtitle>
+				<start>1950</start>
+				<end>197F</end>
+			</range>
+			<range>
+				<subtitle>クメール記号</subtitle>
+				<start>19E0</start>
+				<end>19FF</end>
+			</range>
+			<range>
+				<subtitle>ふりがな拡張</subtitle>
+				<start>1D00</start>
+				<end>1D7F</end>
+			</range>
+			<range>
+				<subtitle>ラテン拡張追加</subtitle>
+				<start>1E00</start>
+				<end>1EFF</end>
+			</range>
+			<range>
+				<subtitle>ギリシャ拡張</subtitle>
+				<start>1F00</start>
+				<end>1FFF</end>
+			</range>
+			<range>
+				<subtitle>一般句読点</subtitle>
+				<start>2000</start>
+				<end>206F</end>
+			</range>
+			<range>
+				<subtitle>上付き/下付きの文字</subtitle>
+				<start>2070</start>
+				<end>209F</end>
+			</range>
+			<range>
+				<subtitle>通貨記号</subtitle>
+				<start>20A0</start>
+				<end>20CF</end>
+			</range>
+			<range>
+				<subtitle>記号用結合分音記号</subtitle>
+				<start>20D0</start>
+				<end>20FF</end>
+			</range>
+			<range>
+				<subtitle>文字様記号</subtitle>
+				<start>2100</start>
+				<end>214F</end>
+			</range>
+			<range>
+				<subtitle>数字の形</subtitle>
+				<start>2150</start>
+				<end>218F</end>
+			</range>
+			<range>
+				<subtitle>矢印</subtitle>
+				<start>2190</start>
+				<end>21FF</end>
+			</range>
+			<range>
+				<subtitle>数学記号</subtitle>
+				<start>2200</start>
+				<end>22FF</end>
+			</range>
+			<range>
+				<subtitle>その他の技術用記号</subtitle>
+				<start>2300</start>
+				<end>23FF</end>
+			</range>
+			<range>
+				<subtitle>制御機能用記号</subtitle>
+				<start>2400</start>
+				<end>243F</end>
+			</range>
+			<range>
+				<subtitle>OCR</subtitle>
+				<start>2440</start>
+				<end>245F</end>
+			</range>
+			<range>
+				<subtitle>囲み英数字</subtitle>
+				<start>2460</start>
+				<end>24FF</end>
+			</range>
+			<range>
+				<subtitle>罫線文字</subtitle>
+				<start>2500</start>
+				<end>257F</end>
+			</range>
+			<range>
+				<subtitle>ブロック要素</subtitle>
+				<start>2580</start>
+				<end>259F</end>
+			</range>
+			<range>
+				<subtitle>幾何学模様</subtitle>
+				<start>25A0</start>
+				<end>25FF</end>
+			</range>
+			<range>
+				<subtitle>その他の記号</subtitle>
+				<start>2600</start>
+				<end>26FF</end>
+			</range>
+			<range>
+				<subtitle>装飾記号</subtitle>
+				<start>2700</start>
+				<end>27BF</end>
+			</range>
+			<range>
+				<subtitle>その他の数学記号 A</subtitle>
+				<start>27C0</start>
+				<end>27EF</end>
+			</range>
+			<range>
+				<subtitle>補助矢印 A</subtitle>
+				<start>27F0</start>
+				<end>27FF</end>
+			</range>
+			<range>
+				<subtitle>ブライユ点字パターン</subtitle>
+				<start>2800</start>
+				<end>28FF</end>
+			</range>
+			<range>
+				<subtitle>補助矢印 B</subtitle>
+				<start>2900</start>
+				<end>297F</end>
+			</range>
+			<range>
+				<subtitle>その他の数学記号 B</subtitle>
+				<start>2980</start>
+				<end>29FF</end>
+			</range>
+			<range>
+				<subtitle>補助数学記号</subtitle>
+				<start>2A00</start>
+				<end>2AFF</end>
+			</range>
+			<range>
+				<subtitle>その他の記号と矢印</subtitle>
+				<start>2B00</start>
+				<end>2BFF</end>
+			</range>
+			<range>
+				<subtitle>CJK 部首補助</subtitle>
+				<start>2E80</start>
+				<end>2EFF</end>
+			</range>
+			<range>
+				<subtitle>Kangxi 部首</subtitle>
+				<start>2F00</start>
+				<end>2FDF</end>
+			</range>
+			<range>
+				<subtitle>表意文字構造</subtitle>
+				<start>2FF0</start>
+				<end>2FFF</end>
+			</range>
+			<range>
+				<subtitle>CJK 用の記号および分音記号</subtitle>
+				<start>3000</start>
+				<end>303F</end>
+			</range>
+			<range>
+				<subtitle>ひらがな</subtitle>
+				<start>3040</start>
+				<end>309F</end>
+			</range>
+			<range>
+				<subtitle>かたかな</subtitle>
+				<start>30A0</start>
+				<end>30FF</end>
+			</range>
+			<range>
+				<subtitle>Bopomofo</subtitle>
+				<start>3100</start>
+				<end>312F</end>
+			</range>
+			<range>
+				<subtitle>ハングル互換字母</subtitle>
+				<start>3130</start>
+				<end>318F</end>
+			</range>
+			<range>
+				<subtitle>漢文</subtitle>
+				<start>3190</start>
+				<end>319F</end>
+			</range>
+			<range>
+				<subtitle>Bopomofo 拡張</subtitle>
+				<start>31A0</start>
+				<end>31BF</end>
+			</range>
+			<range>
+				<subtitle>カタカナふりがな拡張</subtitle>
+				<start>31F0</start>
+				<end>31FF</end>
+			</range>
+			<range>
+				<subtitle>囲み CJK 文字/月</subtitle>
+				<start>3200</start>
+				<end>32FF</end>
+			</range>
+			<range>
+				<subtitle>CJK 互換文字</subtitle>
+				<start>3300</start>
+				<end>33FF</end>
+			</range>
+			<range>
+				<subtitle>CJK 統合漢字拡張 A</subtitle>
+				<start>3400</start>
+				<end>4DBF</end>
+			</range>
+			<range>
+				<subtitle>易経の六線星形の記号</subtitle>
+				<start>4DC0</start>
+				<end>4DFF</end>
+			</range>
+			<range>
+				<subtitle>CJK 統合漢字</subtitle>
+				<start>4E00</start>
+				<end>9FFF</end>
+			</range>
+			<range>
+				<subtitle>イ音節</subtitle>
+				<start>A000</start>
+				<end>A48F</end>
+			</range>
+			<range>
+				<subtitle>イ部首</subtitle>
+				<start>A490</start>
+				<end>A4CF</end>
+			</range>
+			<range>
+				<subtitle>ハングル音節</subtitle>
+				<start>AC00</start>
+				<end>D7AF</end>
+			</range>
+			<range>
+				<subtitle>上位サロゲート</subtitle>
+				<start>D800</start>
+				<end>DB7F</end>
+			</range>
+			<range>
+				<subtitle>上位私用サロゲート</subtitle>
+				<start>DB80</start>
+				<end>DBFF</end>
+			</range>
+			<range>
+				<subtitle>下位サロゲート</subtitle>
+				<start>DC00</start>
+				<end>DFFF</end>
+			</range>
+			<range>
+				<subtitle>私用領域</subtitle>
+				<start>E000</start>
+				<end>F8FF</end>
+			</range>
+			<range>
+				<subtitle>CJK 互換漢字</subtitle>
+				<start>F900</start>
+				<end>FAFF</end>
+			</range>
+			<range>
+				<subtitle>アルファベット表示形</subtitle>
+				<start>FB00</start>
+				<end>FB4F</end>
+			</range>
+			<range>
+				<subtitle>アラビア表示形 A</subtitle>
+				<start>FB50</start>
+				<end>FDFF</end>
+			</range>
+			<range>
+				<subtitle>バリエーションの選択</subtitle>
+				<start>FE00</start>
+				<end>FE0F</end>
+			</range>
+			<range>
+				<subtitle>結合半角記号</subtitle>
+				<start>FE20</start>
+				<end>FE2F</end>
+			</range>
+			<range>
+				<subtitle>CJK 互換形</subtitle>
+				<start>FE30</start>
+				<end>FE4F</end>
+			</range>
+			<range>
+				<subtitle>小字形</subtitle>
+				<start>FE50</start>
+				<end>FE6F</end>
+			</range>
+			<range>
+				<subtitle>アラビア表示形 B</subtitle>
+				<start>FE70</start>
+				<end>FEFF</end>
+			</range>
+			<range>
+				<subtitle>半角形/全角形</subtitle>
+				<start>FF00</start>
+				<end>FFEF</end>
+			</range>
+			<range>
+				<subtitle>特殊文字</subtitle>
+				<start>FFF0</start>
+				<end>FFFF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>Unicode (追加多言語面)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (面区点)</column>
+			</detail>
+			<range>
+				<subtitle>線文字 B 音節</subtitle>
+				<start>10000</start>
+				<end>1007F</end>
+			</range>
+			<range>
+				<subtitle>線文字 B 表意文字</subtitle>
+				<start>10080</start>
+				<end>100FF</end>
+			</range>
+			<range>
+				<subtitle>エーゲ数字</subtitle>
+				<start>10100</start>
+				<end>1013F</end>
+			</range>
+			<range>
+				<subtitle>古代イタリア</subtitle>
+				<start>10300</start>
+				<end>1032F</end>
+			</range>
+			<range>
+				<subtitle>ゴート文字</subtitle>
+				<start>10330</start>
+				<end>1034F</end>
+			</range>
+			<range>
+				<subtitle>ウガリト</subtitle>
+				<start>10380</start>
+				<end>1039F</end>
+			</range>
+			<range>
+				<subtitle>デザレット</subtitle>
+				<start>10400</start>
+				<end>1044F</end>
+			</range>
+			<range>
+				<subtitle>シェイヴィアン</subtitle>
+				<start>10450</start>
+				<end>1047F</end>
+			</range>
+			<range>
+				<subtitle>オスマニア</subtitle>
+				<start>10480</start>
+				<end>104AF</end>
+			</range>
+			<range>
+				<subtitle>キプロス</subtitle>
+				<start>10800</start>
+				<end>1083F</end>
+			</range>
+			<range>
+				<subtitle>ビザンチン音楽記号</subtitle>
+				<start>1D000</start>
+				<end>1D0FF</end>
+			</range>
+			<range>
+				<subtitle>音楽記号</subtitle>
+				<start>1D100</start>
+				<end>1D1FF</end>
+			</range>
+			<range>
+				<subtitle>太玄經記号</subtitle>
+				<start>1D300</start>
+				<end>1D35F</end>
+			</range>
+			<range>
+				<subtitle>数学英数字記号</subtitle>
+				<start>1D400</start>
+				<end>1D7FF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>Unicode (追加漢字面)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (面区点)</column>
+			</detail>
+			<range>
+				<subtitle>CJK 統合漢字拡張 B</subtitle>
+				<start>20000</start>
+				<end>2A6DF</end>
+			</range>
+			<range>
+				<subtitle>CJK 互換漢字補助</subtitle>
+				<start>2F800</start>
+				<end>2FA1F</end>
+			</range>
+			<range>
+				<subtitle>タグ</subtitle>
+				<start>E0000</start>
+				<end>E007F</end>
+			</range>
+			<range>
+				<subtitle>バリエーション セレクター補助</subtitle>
+				<start>E0100</start>
+				<end>E01EF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>Unicode (15 面)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (面区点)</column>
+			</detail>
+			<range>
+				<subtitle>私用領域 A 補助</subtitle>
+				<start>F0000</start>
+				<end>FFFFF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>Unicode (16 面)</title>
+			<encoding>Unicode</encoding>
+			<column>16</column>
+			<detail>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+				<column>JIS X 0213 (面区点)</column>
+			</detail>
+			<range>
+				<subtitle>私用領域 B 補助</subtitle>
+				<start>100000</start>
+				<end>10FFFF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>シフト JIS</title>
+			<encoding>ShiftJIS</encoding>
+			<column>16</column>
+			<detail>
+				<column>Shift JIS</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>JIS X 0213 (面区点)</column>
+			</detail>
+			<range>
+				<subtitle>半角英字</subtitle>
+				<start>20</start>
+				<end>FF</end>
+			</range>
+			<range>
+				<subtitle>記号</subtitle>
+				<start>8140</start>
+				<end>824E</end>
+			</range>
+			<range>
+				<subtitle>英数字</subtitle>
+				<start>824F</start>
+				<end>829E</end>
+			</range>
+			<range>
+				<subtitle>ひらがな</subtitle>
+				<start>829F</start>
+				<end>833F</end>
+			</range>
+			<range>
+				<subtitle>カタカナ</subtitle>
+				<start>8340</start>
+				<end>839E</end>
+			</range>
+			<range>
+				<subtitle>ギリシャ文字</subtitle>
+				<start>839F</start>
+				<end>843F</end>
+			</range>
+			<range>
+				<subtitle>ロシア文字</subtitle>
+				<start>8440</start>
+				<end>849E</end>
+			</range>
+			<range>
+				<subtitle>罫線素片</subtitle>
+				<start>849F</start>
+				<end>873F</end>
+			</range>
+			<range>
+				<subtitle>囲み英数字/アラビア数字</subtitle>
+				<start>8740</start>
+				<end>875E</end>
+			</range>
+			<range>
+				<subtitle>単位記号</subtitle>
+				<start>875F</start>
+				<end>877D</end>
+			</range>
+			<range>
+				<subtitle>省略文字/囲み文字/年号</subtitle>
+				<start>877E</start>
+				<end>878F</end>
+			</range>
+			<range>
+				<subtitle>数学記号</subtitle>
+				<start>8790</start>
+				<end>889E</end>
+			</range>
+			<range>
+				<subtitle>漢字 1</subtitle>
+				<start>889F</start>
+				<end>989E</end>
+			</range>
+			<range>
+				<subtitle>漢字 2</subtitle>
+				<start>989F</start>
+				<end>F03F</end>
+			</range>
+			<range>
+				<subtitle>外字</subtitle>
+				<start>F040</start>
+				<end>FA39</end>
+			</range>
+			<range>
+				<subtitle>漢字 3</subtitle>
+				<start>FA40</start>
+				<end>FFFF</end>
+			</range>
+		</charset>
+		<charset>
+			<title>JIS X 0208</title>
+			<encoding>JISX0208</encoding>
+			<column>10</column>
+			<detail>
+				<column>JIS X 0208 (区点)</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+			</detail>
+			<range>
+				<subtitle></subtitle>
+				<start>1-1</start>
+				<end>94-94</end>
+			</range>
+		</charset>
+		<charset>
+			<title>JIS X 0212</title>
+			<encoding>JISX0212</encoding>
+			<column>10</column>
+			<detail>
+				<column>JIS X 0212 (区点)</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+			</detail>
+			<range>
+				<subtitle></subtitle>
+				<start>1-1</start>
+				<end>94-94</end>
+			</range>
+		</charset>
+		<charset>
+			<title>JIS X 0213 (1 面)</title>
+			<encoding>JISX0213</encoding>
+			<column>10</column>
+			<detail>
+				<column>JIS X 0213 (面区点)</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+			</detail>
+			<range>
+				<subtitle></subtitle>
+				<start>1-1-1</start>
+				<end>1-94-94</end>
+			</range>
+		</charset>
+		<charset>
+			<title>JIS X 0213 (2 面)</title>
+			<encoding>JISX0213</encoding>
+			<column>10</column>
+			<detail>
+				<column>JIS X 0213 (面区点)</column>
+				<column>Unicode</column>
+				<column>UTF-16</column>
+				<column>UTF-8</column>
+				<column>Shift JIS</column>
+			</detail>
+			<range>
+				<subtitle></subtitle>
+				<start>2-1-1</start>
+				<end>2-94-94</end>
+			</range>
+		</charset>
+	</code0411>
+</codes>

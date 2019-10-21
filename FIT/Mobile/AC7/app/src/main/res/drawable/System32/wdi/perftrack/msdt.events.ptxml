@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{b88d9e1d-4933-4d57-8088-d63617614e18}" interactionclass="Responsive" key="$ProcessId" name="TroubleshootingWizard-InitializeWizard" sqmid="273" tags="Diagnostics">
+        <event provider="{a50b09f8-93eb-4396-84c9-dc921259f952}" type="start" value="1000" version="0"/>
+        <event provider="{a50b09f8-93eb-4396-84c9-dc921259f952}" type="stop" value="1001" version="0"/>
+      </scenario>
+      <scenario guid="{5ecc820a-8e48-4f6a-b52e-6ebbe10f2d6f}" interactionclass="Responsive" key="$ProcessId" name="TroubleshootingWizard-Escalation" sqmid="274" tags="Diagnostics">
+        <event provider="{a50b09f8-93eb-4396-84c9-dc921259f952}" type="start" value="1002" version="0"/>
+        <event provider="{a50b09f8-93eb-4396-84c9-dc921259f952}" type="stop" value="1003" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

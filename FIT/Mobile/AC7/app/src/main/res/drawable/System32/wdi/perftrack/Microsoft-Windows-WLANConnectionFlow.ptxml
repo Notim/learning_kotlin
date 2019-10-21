@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{687f90ea-9e60-46c9-8534-ce24e1680862}" interactionclass="Extended" key=" " name="Net-WlanConn-L2-Connect" sqmid="439" tags="Networking">
+        <event provider="{239CFB83-CBB7-4BBC-A02E-9BDB496AA7C2}" type="start" value="8001" version="0"/>
+        <event provider="{239CFB83-CBB7-4BBC-A02E-9BDB496AA7C2}" type="stop" value="8002" version="0"/>
+      </scenario>
+      <scenario guid="{d9a79541-a843-43aa-a29b-cf627a4d466f}" interactionclass="LongRunning" key=" " name="Net-WlanConn-L2-ConnectIgnore" sqmid="440" tags="Networking">
+        <event provider="{239CFB83-CBB7-4BBC-A02E-9BDB496AA7C2}" type="start" value="8001" version="0"/>
+        <event provider="{239CFB83-CBB7-4BBC-A02E-9BDB496AA7C2}" type="stop" value="8003" version="0"/>
+      </scenario>
+      <scenario guid="{44ed665b-6527-494d-bae5-fae90aba3be8}" interactionclass="Extended" key=" " name="Net-WlanConn-L3-Connect" sqmid="441" tags="Networking">
+        <event provider="{239CFB83-CBB7-4BBC-A02E-9BDB496AA7C2}" type="start" value="8004" version="0"/>
+        <event provider="{239CFB83-CBB7-4BBC-A02E-9BDB496AA7C2}" type="stop" value="8005" version="0"/>
+      </scenario>
+      <scenario guid="{9c8579cd-e8c0-4076-9367-3bf475533e37}" interactionclass="LongRunning" key=" " name="Net-WlanConn-L3-ConnectIgnore" sqmid="442" tags="Networking">
+        <event provider="{239CFB83-CBB7-4BBC-A02E-9BDB496AA7C2}" type="start" value="8004" version="0"/>
+        <event provider="{239CFB83-CBB7-4BBC-A02E-9BDB496AA7C2}" type="stop" value="8006" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

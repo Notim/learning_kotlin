@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{6a6614dd-3264-4346-8898-245745f883a8}" interactionclass="Extended" key="$ProcessId" name="Homegroup-Create" sqmid="542" tags="HomeGroup">
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="start" value="6001" version="0"/>
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="stop" value="6002" version="0"/>
+      </scenario>
+      <scenario guid="{24f6c164-515d-4b6e-b055-f44af58e361b}" interactionclass="Extended" key="$ProcessId" name="HomeGroup-Depart" sqmid="543" tags="HomeGroup">
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="start" value="6005" version="0"/>
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="stop" value="6006" version="0"/>
+      </scenario>
+      <scenario guid="{9c62ea49-83aa-4eda-8cd8-8d7f4aebd882}" interactionclass="Extended" key="$ProcessId" name="HomeGroup-Join" sqmid="544" tags="HomeGroup">
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="start" value="6003" version="0"/>
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="stop" value="6004" version="0"/>
+      </scenario>
+      <scenario guid="{04435c86-b6b3-4bf9-a7ba-dd6537cc897c}" interactionclass="Extended" key="$ProcessId" name="HomeGroup-ResetPin" sqmid="545" tags="HomeGroup">
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="start" value="6007" version="0"/>
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="stop" value="6008" version="0"/>
+      </scenario>
+      <scenario guid="{0fe5600d-b659-4d48-9796-66c03d30624b}" interactionclass="Extended" key="$ProcessId" name="HomeGroup-ResolveConflict" sqmid="546" tags="HomeGroup">
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="start" value="6009" version="0"/>
+        <event provider="{C9BDB4EB-9287-4c8e-8378-6896F0D1C5EF}" type="stop" value="6010" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

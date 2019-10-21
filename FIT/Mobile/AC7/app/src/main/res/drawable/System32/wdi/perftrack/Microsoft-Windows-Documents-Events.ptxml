@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@8,0,0,4,0" guid="{cd21244e-f2a6-4ece-a596-f5ebb7fa6ffa}" interactionclass="LongRunning" key="JobId" name="DOX-PrintSpooler-PrintDocument" sqmid="48" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="1001" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="1002" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{159378b9-ee17-42aa-a75f-b8cd877df018}" interactionclass="LongRunning" key="JobId" name="DOX-PrintSpooler-SpoolDocument" sqmid="49" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="1003" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="1004" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{df0a6048-d7a2-4eb0-a5a5-fd0c02c575f0}" interactionclass="LongRunning" key="JobId" name="DOX-PrintSpooler-DespoolDocument" sqmid="50" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="1005" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="1006" version="0"/>
+      </scenario>
+      <scenario guid="{b80bca2b-5334-48df-b844-bf87f4fb228b}" interactionclass="Instant" key="$ProcessId" name="DOX-PrintSpooler-PhaseOneInit" sqmid="172" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="1027" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="1028" version="0"/>
+      </scenario>
+      <scenario guid="{ff4bdb56-a565-4177-8cfc-c59fc36774fc}" interactionclass="Captive" key="$ProcessId" name="DOX-PrintSpooler-PhaseTwoInit" sqmid="173" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="1029" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="1030" version="0"/>
+      </scenario>
+      <scenario digestedkey="@a,0,0,8,0" guid="{570bd382-3059-4aaf-b8c4-f799accb91f9}" interactionclass="Typical" key="Notifier" name="DOX-PrintUI-DeviceCenterEnumeration" sqmid="349" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="3150" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="3151" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{5d40989a-5973-41c9-be08-d18f5e7b25e2}" interactionclass="Responsive" key="WindowHandle" name="DOX-PrintUI-PrintFolderEnumeration" sqmid="135" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="3201" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="3202" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{0a424ee0-0ba3-42f6-abc6-ac04b93866d8}" interactionclass="Responsive" key="WindowHandle" name="DOX-PrintUI-PrintDialog" sqmid="136" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="3251" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="3252" version="0"/>
+      </scenario>
+      <scenario digestedkey="@f,0,0,10,0" guid="{5638f7d5-8840-4c21-89ff-23e312f9f413}" interactionclass="Typical" key="idGuid" name="DOX-ScanRepository-CreatePostScanJob" sqmid="124" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="6001" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="6002" version="0"/>
+      </scenario>
+      <scenario digestedkey="@f,0,0,10,0" guid="{8f1f317c-4396-44b0-8415-504afe56021b}" interactionclass="LongRunning" key="idGuid" name="DOX-ScanRepository-SendImage" sqmid="125" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="6003" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="6004" version="0"/>
+      </scenario>
+      <scenario digestedkey="@f,0,0,10,0" guid="{8764fe2c-274e-4813-ac18-d52708d2cae9}" interactionclass="Fast" key="idGuid" name="DOX-ScanRepository-EndPostScanJob" sqmid="126" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="6005" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="6006" version="0"/>
+      </scenario>
+      <scenario digestedkey="@f,0,0,10,0" guid="{5bc5ebb6-ece0-4a72-9541-902cb503d517}" interactionclass="LongRunning" key="idGuid" name="DOX-ScanRepository-ProcessPostScanJob" sqmid="127" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="6007" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="6008" version="0"/>
+      </scenario>
+      <scenario digestedkey="@1,0,0,0,0" guid="{4319fe12-175e-4619-8577-a77212e58962}" interactionclass="Extended" key="DeviceInstanceId" name="DOX-Setup-PnPPrinterInstall" sqmid="321" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="6107" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="6108" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{76088e1c-2501-40c5-b479-8560bef58321}" interactionclass="Extended" key="InstanceId" name="DOX-Setup-StagePackageDriver" sqmid="322" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="6109" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="6110" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{10a47f8f-98dc-4e84-93cb-cbb1bdf96482}" interactionclass="Captive" key="InstanceId" name="DOX-Setup-InstallPackageDriver" sqmid="323" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="6111" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="6112" version="0"/>
+      </scenario>
+      <scenario guid="{08ce97e7-2713-4de9-8d80-a08c45f3aa8a}" interactionclass="Continuous" key="$ProcessId $ThreadId" name="DOX-XpsViewer-LoadFirstPage" sqmid="148" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7001" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7003" version="0"/>
+      </scenario>
+      <scenario guid="{0e574be2-9662-46cf-8eca-d63d3dc73e07}" interactionclass="Responsive" key="$ProcessId $ThreadId" name="DOX-XpsViewer-ShutdownApplication" sqmid="150" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7004" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7006" version="0"/>
+      </scenario>
+      <scenario guid="{79ccebb5-7fb1-4ba5-af3c-7ffcac09f60f}" interactionclass="Extended" key="$ProcessId $ThreadId" name="DOX-XpsViewer-Find-PageIndexing" sqmid="213" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7007" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7008" version="0"/>
+      </scenario>
+      <scenario guid="{1a64ef7c-12dd-49a2-ab68-61d66b970656}" interactionclass="LongRunning" key="$ProcessId $ThreadId" name="DOX-XpsViewer-Find-FindNext" sqmid="214" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7009" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7010" version="0"/>
+      </scenario>
+      <scenario guid="{f9f3c8df-df03-467c-9d63-f2a13f7dbbe3}" interactionclass="LongRunning" key="$ProcessId $ThreadId" name="DOX-XpsViewer-Find-FindAll" sqmid="215" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7011" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7012" version="0"/>
+      </scenario>
+      <scenario guid="{e32ab724-077b-47b6-a7f7-ebce13878595}" interactionclass="Instant" key="$ProcessId" name="DOX-XpsViewer-Thumbnails-SetPagesPerBlock" sqmid="263" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7013" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7014" version="0"/>
+      </scenario>
+      <scenario guid="{511eb87a-a113-480a-b48b-d3bd7206dc4a}" interactionclass="Extended" key="$ProcessId" name="DOX-XpsViewer-Thumbnails-LoadingPages" sqmid="265" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7017" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7018" version="0"/>
+      </scenario>
+      <scenario guid="{32efc875-85e4-4b22-8509-b817d7f2eb20}" interactionclass="Captive" key="$ProcessId" name="DOX-XpsViewer-SaveAs" sqmid="289" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7036" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7037" version="0"/>
+      </scenario>
+      <scenario guid="{e5b9df37-5588-4638-ae8f-1f10e840e3f5}" interactionclass="Captive" key="$ProcessId" name="DOX-XpsViewer-DigSig-LoadDigSig" sqmid="290" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7040" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7041" version="0"/>
+      </scenario>
+      <scenario guid="{40029829-a4cf-48c8-892b-12d3abf884cc}" interactionclass="Captive" key="$ProcessId" name="DOX-XpsViewer-DigSig-RequestDigSig" sqmid="291" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7042" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7043" version="0"/>
+      </scenario>
+      <scenario guid="{9c309684-e893-4ee6-b271-51f3a051f137}" interactionclass="Captive" key="$ProcessId" name="DOX-XpsViewer-DigSig-SignDigSig" sqmid="292" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7044" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7045" version="0"/>
+      </scenario>
+      <scenario guid="{c9d2df12-5a37-451e-86af-453b968452d6}" interactionclass="Captive" key="$ProcessId" name="DOX-XpsViewer-RM-Save" sqmid="293" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7046" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7047" version="0"/>
+      </scenario>
+      <scenario guid="{797ac975-138c-45c7-ab01-e86d851f03c4}" interactionclass="Typical" key="$ProcessId" name="DOX-XpsViewer-SelectContent" sqmid="296" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7050" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7051" version="0"/>
+      </scenario>
+      <scenario guid="{89d47095-c31b-40c1-a466-016cc3883f57}" interactionclass="Typical" key="$ProcessId" name="DOX-XpsViewer-CopyContent" sqmid="297" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7031" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7032" version="0"/>
+      </scenario>
+      <scenario guid="{0d0dae01-94f4-4697-b05a-ca1f8f8bfc14}" interactionclass="LongRunning" key="$ProcessId" name="DOX-XpsViewer-PrintDocument" sqmid="304" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7052" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7053" version="0"/>
+      </scenario>
+      <scenario guid="{78347e0e-de36-4c58-8d8e-3cfbcff7f72c}" interactionclass="Typical" key="$ProcessId" name="DOX-XpsViewer-PrintPrepare" sqmid="305" tags="DOX">
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="start" value="7054" version="0"/>
+        <event provider="{C89B991E-3B48-49b2-80D3-AC000DFC9749}" type="stop" value="7055" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

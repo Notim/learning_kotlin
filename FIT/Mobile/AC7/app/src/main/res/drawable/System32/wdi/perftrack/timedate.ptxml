@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{1a1b337c-cfa4-4a3d-bb98-821ced7eea25}" interactionclass="Typical" key="$ProcessId" name="Shell-DisplayClockFlyout" sqmid="276" tags="Shell">
+        <event provider="{741fc222-44ed-4ba7-98e3-f405b2d2c4b4}" type="begin" value="30010" version="0"/>
+        <event provider="{741fc222-44ed-4ba7-98e3-f405b2d2c4b4}" type="end" value="30011" version="0"/>
+      </scenario>
+      <scenario guid="{85eb51ee-623a-443f-825a-da8fccd33666}" interactionclass="Typical" key="$ProcessId" name="Shell-DisplayClockTooltip" sqmid="277" tags="Shell">
+        <event provider="{741fc222-44ed-4ba7-98e3-f405b2d2c4b4}" type="begin" value="30012" version="0"/>
+        <event provider="{741fc222-44ed-4ba7-98e3-f405b2d2c4b4}" type="end" value="30013" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

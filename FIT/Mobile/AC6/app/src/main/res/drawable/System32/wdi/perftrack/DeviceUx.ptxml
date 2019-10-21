@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{befda4ef-8bdd-4c37-8cc6-2b97b4b76c22}" interactionclass="Extended" key="$ProcessId" name="DeviceUX-Bluewire-AdviseStage" sqmid="420" tags="DeviceUX">
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="start" value="52" version="0"/>
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="stop" value="53" version="0"/>
+      </scenario>
+      <scenario guid="{1f9a6258-0982-4ad8-868c-d2ffa6fb64c8}" interactionclass="Extended" key="$ProcessId" name="DeviceUX-Bluewire-PairingStage" sqmid="421" tags="DeviceUX">
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="start" value="50" version="0"/>
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="stop" value="51" version="0"/>
+      </scenario>
+      <scenario guid="{5af42f32-872d-49d9-a31c-b6da16f8368e}" interactionclass="Extended" key="$ProcessId" name="DeviceUX-Bluewire-UnpairDevice" sqmid="423" tags="DeviceUX">
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="start" value="56" version="0"/>
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="stop" value="57" version="0"/>
+      </scenario>
+      <scenario guid="{db971e66-9f3c-4837-b7a7-b42ce2562448}" interactionclass="Responsive" key="$ProcessId" name="DeviceUX-DeviceCenter-DisplayObjectListQuery" sqmid="418" tags="DeviceUX">
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="start" value="80" version="0"/>
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="stop" value="81" version="0"/>
+      </scenario>
+      <scenario guid="{fef5e6c7-fd1e-49ba-a64b-c3cba88d60b3}" interactionclass="Continuous" key="$ProcessId" name="DeviceUX-DeviceCenter-CleanupCache" sqmid="419" tags="DeviceUX">
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="start" value="82" version="0"/>
+        <event provider="{DED165CF-485D-4770-A3E7-9C5F0320E80C}" type="stop" value="83" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

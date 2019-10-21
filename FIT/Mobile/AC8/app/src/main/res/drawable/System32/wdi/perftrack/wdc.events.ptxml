@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{ee756d9f-ab6c-4dfc-b2b8-6023f999d3c9}" interactionclass="Responsive" key="$ProcessId" name="ResourceMonitor-Launch" sqmid="362" tags="ResMon">
+        <event provider="{05921578-2261-42c7-a0d3-26ddbce6c50d}" type="start" value="5200" version="0"/>
+        <event provider="{05921578-2261-42c7-a0d3-26ddbce6c50d}" type="stop" value="5201" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{a76294f2-0a43-4307-a352-3a16aa8ef942}" interactionclass="Fast" key="$ProcessId TabId" name="ResourceMonitor-TabSwitch" sqmid="363" tags="ResMon">
+        <event provider="{05921578-2261-42c7-a0d3-26ddbce6c50d}" type="start" value="5202" version="0"/>
+        <event provider="{05921578-2261-42c7-a0d3-26ddbce6c50d}" type="stop" value="5203" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{dfdf52e9-9662-40c7-8ab2-f0ced3c79f70}" interactionclass="Continuous" key="$ProcessId RequestCookie" name="ResourceMonitor-HandleSearch" sqmid="364" tags="ResMon">
+        <event provider="{05921578-2261-42c7-a0d3-26ddbce6c50d}" type="start" value="5204" version="0"/>
+        <event provider="{05921578-2261-42c7-a0d3-26ddbce6c50d}" type="stop" value="5205" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0 @8,0,4,4,0" guid="{b53732b4-9b5c-407d-b818-82337bbe7ecb}" interactionclass="Fast" key="$ProcessId TableId ColumnId" name="ResourceMonitor-ColumnSort" sqmid="365" tags="ResMon">
+        <event provider="{05921578-2261-42c7-a0d3-26ddbce6c50d}" type="start" value="5206" version="0"/>
+        <event provider="{05921578-2261-42c7-a0d3-26ddbce6c50d}" type="stop" value="5207" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

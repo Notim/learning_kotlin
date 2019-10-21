@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{4aa494b8-04b6-446a-8ceb-11bafbbfb2e8}" interactionclass="Extended" key="$ProcessId" name="WindowsSearch-ServiceStart" sqmid="122" tags="Search">
+        <event provider="{49c2c27c-fe2d-40bf-8c4e-c3fb518037e7}" type="begin" value="267" version="0"/>
+        <event provider="{49c2c27c-fe2d-40bf-8c4e-c3fb518037e7}" type="end" value="268" version="0"/>
+      </scenario>
+      <scenario guid="{ee542f08-3b13-4e55-817d-5f7a8da5b16a}" interactionclass="Extended" key="$ProcessId" name="WindowsSearch-ServiceStop" sqmid="123" tags="Search">
+        <event provider="{49c2c27c-fe2d-40bf-8c4e-c3fb518037e7}" type="begin" value="269" version="0"/>
+        <event provider="{49c2c27c-fe2d-40bf-8c4e-c3fb518037e7}" type="end" value="270" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

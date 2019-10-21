@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{d50549a4-12d7-48bf-9657-395c5ec1d31c}" interactionclass="Captive" key="Key" name="PlayDVD-FirstFrameShown" sqmid="151" tags="WMEX">
+        <event provider="{f3f14ff3-7b80-4868-91d0-d77e497b025e}" type="start" value="490" version="0"/>
+        <event provider="{f3f14ff3-7b80-4868-91d0-d77e497b025e}" type="stop" value="491" version="0"/>
+      </scenario>
+      <scenario guid="{2247d837-6a14-4550-af9a-9e5125eb2ce9}" interactionclass="LongRunning" key="Key" name="WMEX-Play-CD" sqmid="152" tags="WMEX">
+        <event provider="{f3f14ff3-7b80-4868-91d0-d77e497b025e}" type="start" value="490" version="0"/>
+        <event provider="{f3f14ff3-7b80-4868-91d0-d77e497b025e}" type="stop" value="492" version="0"/>
+      </scenario>
+      <scenario guid="{37007983-1869-4c3f-a331-8d6df155e875}" interactionclass="LongRunning" key="Key" name="WMEX-Play-CDDVD-Cancel" sqmid="556" tags="WMEX">
+        <event provider="{f3f14ff3-7b80-4868-91d0-d77e497b025e}" type="start" value="490" version="0"/>
+        <event provider="{f3f14ff3-7b80-4868-91d0-d77e497b025e}" type="stop" value="493" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

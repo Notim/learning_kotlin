@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{9ac8d597-e74c-4dc4-bf50-8d37a11cc4db}" interactionclass="Extended" key="$ActivityId" name="Net-NDF-DiagnoseTime" sqmid="166" tags="Networking">
+        <event provider="{36c23e18-0e66-11d9-bbeb-505054503030}" type="start" value="8003" version="0"/>
+        <event provider="{36c23e18-0e66-11d9-bbeb-505054503030}" type="stop" value="8004" version="0"/>
+      </scenario>
+      <scenario guid="{ee72ef0e-3db9-4dfd-ae72-32474d414026}" interactionclass="Extended" key="$ActivityId" name="Net-NDF-RepairTime" sqmid="404" tags="Networking">
+        <event provider="{36c23e18-0e66-11d9-bbeb-505054503030}" type="start" value="8005" version="0"/>
+        <event provider="{36c23e18-0e66-11d9-bbeb-505054503030}" type="stop" value="8006" version="0"/>
+      </scenario>
+      <scenario guid="{bae400d8-6166-400c-8b41-c0149b2239b9}" interactionclass="Extended" key="$ActivityId" name="Net-NDF-ValidateTime" sqmid="405" tags="Networking">
+        <event provider="{36c23e18-0e66-11d9-bbeb-505054503030}" type="start" value="8007" version="0"/>
+        <event provider="{36c23e18-0e66-11d9-bbeb-505054503030}" type="stop" value="8008" version="0"/>
+      </scenario>
+      <scenario guid="{ee658d90-f823-4788-855b-8302826e9217}" interactionclass="Extended" key="$ActivityId" name="Net-NDF-ReproTime" sqmid="406" tags="Networking">
+        <event provider="{36c23e18-0e66-11d9-bbeb-505054503030}" type="start" value="8009" version="0"/>
+        <event provider="{36c23e18-0e66-11d9-bbeb-505054503030}" type="stop" value="8010" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

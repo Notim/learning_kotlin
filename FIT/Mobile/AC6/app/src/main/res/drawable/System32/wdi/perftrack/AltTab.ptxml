@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{476c4abc-c2c9-45b1-8646-a2ed7afb85cd}" interactionclass="Typical" key="$ProcessId" name="Shell-AltTab-Invoke" sqmid="128" tags="Shell">
+        <event provider="{11A377E3-BE1E-4ee7-ABDA-81C6EDA62E71}" type="start" value="1" version="0"/>
+        <event provider="{11A377E3-BE1E-4ee7-ABDA-81C6EDA62E71}" type="stop" value="2" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

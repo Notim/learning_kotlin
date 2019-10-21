@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{99cc135b-5ade-40e7-9ac7-d3ed6d1a15ca}" interactionclass="Extended" key="InterfaceGuid" name="Net-NID-IdentifyNetwork" sqmid="168" tags="Networking">
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="start" value="4409" version="0"/>
+        <event provider="{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}" type="stop" value="4002" version="0"/>
+      </scenario>
+      <scenario guid="{99cc135c-5ade-40e7-9ac7-d3ed6d1a15ca}" interactionclass="Extended" key="InterfaceGuid" name="Net-NID-IdentifyUnidentifiedNetwork" sqmid="438" tags="Networking">
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="start" value="4409" version="0"/>
+        <event provider="{FBCFAC3F-8459-419F-8E48-1F0B49CDB85E}" type="stop" value="4003" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

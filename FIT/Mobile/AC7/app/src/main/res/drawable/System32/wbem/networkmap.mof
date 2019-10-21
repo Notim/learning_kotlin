@@ -1,0 +1,26 @@
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+
+
+[Dynamic,
+ Description("Windows NetworkMap Trace"),
+ guid("{6e7a2fc0-9244-4ee4-804f-e812924abf26}"),
+ locale("MS\\0x409")]
+class NetworkMapTrace : EventTrace
+{
+    [Description ("Enable Flags"),
+        ValueDescriptions{
+             "tagDefault Flag",
+             "tagLayout Flag"},
+        DefineValues{
+             "tagDefault",
+             "tagLayout"},
+        Values{
+             "tagDefault",
+             "tagLayout"},
+        ValueMap{
+             "0x00000001",
+             "0x00000002"}
+    ]
+    uint32 Flags;
+};

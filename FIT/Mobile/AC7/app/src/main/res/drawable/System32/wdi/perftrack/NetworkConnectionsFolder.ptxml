@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{39015337-3278-4e64-a7de-ccdb6b7fc26e}" interactionclass="Instant" key="$ProcessId" name="Shell-PrimaryNetworkIcon-RightClick" sqmid="243" tags="Shell Systray">
+        <event provider="{8CE93926-BDAE-4409-9155-2FE4799EF4D3}" type="start" value="201" version="0"/>
+        <event provider="{8CE93926-BDAE-4409-9155-2FE4799EF4D3}" type="stop" value="202" version="0"/>
+      </scenario>
+      <scenario guid="{21b18230-8c58-4bd1-992f-ba556ea2d357}" interactionclass="Continuous" key="$ProcessId" name="NetUI-NetworkSharingCenter-DisplayInterfacesList" sqmid="165" tags="Networking">
+        <event provider="{6a502821-ab44-40c8-b32f-37315d9d52e0}" type="start" value="6010" version="0"/>
+        <event provider="{AF2E340C-0743-4F5A-B2D3-2F7225D215DE}" type="stop" value="8001" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

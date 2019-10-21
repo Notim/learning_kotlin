@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{9625c8fe-af6d-4b5f-8d85-19fc69d5914d}" interactionclass="Fast" key="$ProcessId" name="ComDlg32-ChooseFont-DialogDisplayed" sqmid="456" tags="Shell ComDlg32">
+        <event provider="{7f912b92-21ad-496e-b97a-88622a72bc42}" type="begin" value="30000" version="0"/>
+        <event provider="{7f912b92-21ad-496e-b97a-88622a72bc42}" type="end" value="30001" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

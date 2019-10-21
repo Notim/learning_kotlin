@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{134ce305-efa4-4897-9465-0c233886780f}" interactionclass="Typical" key="$ProcessId" name="Shell-DisplayStartMenu" sqmid="22" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="9519" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="9521" version="0"/>
+      </scenario>
+      <scenario guid="{da4ef20f-193a-4ad1-899c-02b7ebf07f38}" interactionclass="Fast" key="$ProcessId $ThreadId" name="ContextMenu-MenuRendered" sqmid="210" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="18583" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="18584" version="0"/>
+      </scenario>
+      <scenario guid="{E95BEC25-66A2-4d84-8C59-3AA9E77CEFCA}" interactionclass="Responsive" key="$ProcessId" name="Shell-DesktopBackgroundCpl" sqmid="29" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27001" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27002" version="0"/>
+      </scenario>
+      <scenario guid="{26DC7374-6930-453e-97D9-29DAF5AB9EE1}" interactionclass="Responsive" key="$ProcessId" name="Shell-ColorSchemeCpl" sqmid="30" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27003" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27004" version="0"/>
+      </scenario>
+      <scenario guid="{8dd276e2-2551-474a-a6f4-55cb0dec187a}" interactionclass="Fast" key="$ProcessId" name="Shell-StartPane-AllPrograms" sqmid="35" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27005" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27006" version="0"/>
+      </scenario>
+      <scenario guid="{f1cf57ed-ec84-4d94-9b93-4040055eaa5d}" interactionclass="Typical" key="$ProcessId" name="Shell-StartPanel-AllPrograms-ExpandTree" sqmid="306" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="9505" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="9506" version="0"/>
+      </scenario>
+      <scenario guid="{1b87e7ec-de1e-4bf3-8075-bd9629fb69b7}" interactionclass="Fast" key="$ProcessId" name="Shell-StartPane-BackButton" sqmid="36" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27007" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27008" version="0"/>
+      </scenario>
+      <scenario guid="{683b7792-f326-46d3-862a-37b1cda2c989}" interactionclass="Typical" key="$ProcessId" name="Shell-StartPane-LaunchShowItem" sqmid="37" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27009" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27010" version="0"/>
+      </scenario>
+      <scenario guid="{9f1bfd1b-099e-4559-b5e4-3712bd9505f3}" interactionclass="Typical" key="$ProcessId" name="Shell-StartPane-LaunchSearchItem" sqmid="38" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27011" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27012" version="0"/>
+      </scenario>
+      <scenario guid="{ae6ddf06-76d9-4eec-a3e1-77a18dee6f54}" interactionclass="Fast" key="$ProcessId" name="Shell-StartPane-LogOffMenu" sqmid="39" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27013" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27014" version="0"/>
+      </scenario>
+      <scenario guid="{eee610a0-4373-4549-ab3b-875a745a646b}" interactionclass="Typical" key="$ProcessId" name="Shell-StartPane-TopMatchReady" sqmid="45" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27015" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27016" version="0"/>
+      </scenario>
+      <scenario guid="{8b81d210-56e7-4b78-91b9-0fa94ca8f0ad}" interactionclass="Typical" key="$ProcessId" name="Shell-StartPane-TopMatchCanceled" sqmid="453" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27015" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27227" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{c860bf2f-180e-43e0-8785-1b7e49ce4bfd}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-DocumentsLibrary-Local-PageDisplayed" sqmid="51" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27017" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27018" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{11933a02-c352-4b05-9e89-eaadf3f48a52}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-DocumentsLibrary-Local-PageCompleted" sqmid="52" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27019" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27020" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{64d8acfe-d57e-4a21-9dba-70146cd7ef37}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-DocumentsLibrary-Network-PageDisplayed" sqmid="53" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27021" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27022" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{2f4f4185-c067-4f9b-a692-80a69cb03c95}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-DocumentsLibrary-Network-PageCompleted" sqmid="54" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27023" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27024" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{198b1653-4c9d-4a18-b86d-64ea0e6eda42}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-DocumentsLibrary-OpenSearch-PageDisplayed" sqmid="55" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27025" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27026" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{1474f8c9-07a0-495f-83a2-f4c60dedc69b}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-DocumentsLibrary-OpenSearch-PageCompleted" sqmid="56" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27027" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27028" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{cb058b74-517b-4f9f-98b0-1d2462b8cc8d}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-PicturesLibrary-Local-PageDisplayed" sqmid="57" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27029" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27030" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{493b05e9-532c-4a0f-859e-ed40d90fe088}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-PicturesLibrary-Local-PageCompleted" sqmid="58" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27031" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27032" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{941d3c46-adfc-41f0-a71b-aaf34162ffd9}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-PicturesLibrary-Network-PageDisplayed" sqmid="59" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27033" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27034" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{a6479230-3d51-4054-85e9-0184396dd01c}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-PicturesLibrary-Network-PageCompleted" sqmid="60" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27035" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27036" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{16ff174d-40a9-473e-9f0b-2f9002c529b0}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-PicturesLibrary-OpenSearch-PageDisplayed" sqmid="61" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27037" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27038" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{7afcad76-03ad-479e-82ff-e29364fd2849}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-PicturesLibrary-OpenSearch-PageCompleted" sqmid="62" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27039" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27040" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{b3b8ed62-d093-4afb-9674-ae883dc101c8}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-MusicLibrary-Local-PageDisplayed" sqmid="63" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27041" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27042" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{880c5da5-1b9a-4405-9310-f983b4a48664}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-MusicLibrary-Local-PageCompleted" sqmid="64" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27043" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27044" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{7f8df15a-4598-4ba3-9e19-e8f155621398}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-MusicLibrary-Network-PageDisplayed" sqmid="65" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27045" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27046" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{f0148184-6a6f-4f5a-8478-fdd78f8d7f61}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-MusicLibrary-Network-PageCompleted" sqmid="66" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27047" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27048" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{ed2c24b0-e2ca-4f9b-92a5-c9eed4154fdc}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-MusicLibrary-OpenSearch-PageDisplayed" sqmid="67" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27049" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27050" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{4f27ea52-8345-41f2-890f-8e1241fdf09a}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-MusicLibrary-OpenSearch-PageCompleted" sqmid="68" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27051" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27052" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{1e1f77af-c6bf-4a12-a656-61b892285bed}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-VideosLibrary-Local-PageDisplayed" sqmid="69" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27053" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27054" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{ccb246b0-4a56-43ec-b6cc-83cf3df81258}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-VideosLibrary-Local-PageCompleted" sqmid="70" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27055" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27056" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{bde7508a-fe1f-4346-a1d6-6ea7625ae27d}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-VideosLibrary-Network-PageDisplayed" sqmid="71" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27057" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27058" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{57ea2692-056a-4ee8-ab3f-b3dd6043a282}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-VideosLibrary-Network-PageCompleted" sqmid="72" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27059" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27060" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{33b9a61a-5795-49d4-8f83-1d8e2e862d7d}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-VideosLibrary-OpenSearch-PageDisplayed" sqmid="73" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27061" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27062" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{c4dfdbb8-d3bf-4f39-98f0-8c30367768ad}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-VideosLibrary-OpenSearch-PageCompleted" sqmid="74" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27063" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27064" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{abea4d48-0d9f-4d8f-a0f6-181dbfcc4516}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-UsersFiles-PageDisplayed" sqmid="84" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27077" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27078" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{73c5e344-864a-45a8-af60-a2c5a207f021}" interactionclass="Extended" key="$ProcessId BrowserId" name="Explorer-UsersFiles-PageCompleted" sqmid="85" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27079" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27080" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{fecc4fae-2cb4-4a89-ac37-9aa24ff71b8b}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-DocumentsLibrary-Local-PageDisplayed" sqmid="86" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27081" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27082" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{974b2359-75c0-4c8a-872c-4498bd15e8f9}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-DocumentsLibrary-Local-PageCompleted" sqmid="87" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27083" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27084" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{0c8c1e9a-5f71-4be8-9bb6-58893f13b6aa}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-DocumentsLibrary-Network-PageDisplayed" sqmid="88" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27085" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27086" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{6d5fad68-85f2-463c-ba1e-294713abd85b}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-DocumentsLibrary-Network-PageCompleted" sqmid="89" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27087" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27088" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{1cab7e0c-7632-4d55-a93f-e91e2bdcf2e0}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-DocumentsLibrary-OpenSearch-PageDisplayed" sqmid="90" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27089" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27090" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{90d87ab0-9807-48d0-b335-92acf9408ac1}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-DocumentsLibrary-OpenSearch-PageCompleted" sqmid="91" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27091" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27092" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{c59c3553-cf10-4a18-9342-74679f4a3f63}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-PicturesLibrary-Local-PageDisplayed" sqmid="92" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27093" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27094" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{15c9f8e5-1122-4470-ba32-e31e34ddb194}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-PicturesLibrary-Local-PageCompleted" sqmid="93" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27095" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27096" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{f6a47872-dd05-4155-a5ae-8974a1b2be3b}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-PicturesLibrary-Network-PageDisplayed" sqmid="94" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27097" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27098" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{365c9e2b-e7ea-4926-88b6-bc29efc94c50}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-PicturesLibrary-Network-PageCompleted" sqmid="95" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27099" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27100" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{4e38251c-dff6-43e5-90c9-4b42fe21f206}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-PicturesLibrary-OpenSearch-PageDisplayed" sqmid="96" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27101" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27102" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{a0a2035b-c70c-4e75-9f04-d5cef395234a}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-PicturesLibrary-OpenSearch-PageCompleted" sqmid="97" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27103" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27104" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{e4348b33-bf73-4fa6-94de-7de112d843f2}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-MusicLibrary-Local-PageDisplayed" sqmid="98" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27105" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27106" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{9f81e0fd-707b-4ef4-9630-7bc9db63f751}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-MusicLibrary-Local-PageCompleted" sqmid="99" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27107" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27108" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{36583eb2-25b8-4a8b-807d-4d4be9535f63}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-MusicLibrary-Network-PageDisplayed" sqmid="100" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27109" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27110" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{6b918049-76c6-43f8-b366-d1de32a51a20}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-MusicLibrary-Network-PageCompleted" sqmid="101" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27111" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27112" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{d3fb284d-a1e1-491c-8370-8d3235fe72dc}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-MusicLibrary-OpenSearch-PageDisplayed" sqmid="102" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27113" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27114" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{5c328f8c-1670-4e0e-ab08-f5690118c86a}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-MusicLibrary-OpenSearch-PageCompleted" sqmid="103" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27115" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27116" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{48dc75e5-c6e2-44ff-be7e-8d494a96bcd2}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-VideosLibrary-Local-PageDisplayed" sqmid="104" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27117" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27118" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{e9fcdec6-22a5-4904-81ba-1dce52a7186c}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-VideosLibrary-Local-PageCompleted" sqmid="105" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27119" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27120" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{5df3a0bd-699a-4b41-ba1c-a6a1d0b14b4a}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-VideosLibrary-Network-PageDisplayed" sqmid="106" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27121" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27122" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{3b8c13ea-0002-44ff-a279-ef82e47302aa}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-VideosLibrary-Network-PageCompleted" sqmid="107" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27123" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27124" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{fb80a5e8-261f-4a47-9da4-9daa9a00333f}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-VideosLibrary-OpenSearch-PageDisplayed" sqmid="108" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27125" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27126" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{0216bf36-58ff-4dc5-81ed-d29923e3ebb2}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-VideosLibrary-OpenSearch-PageCompleted" sqmid="109" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27127" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27128" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{1f73de32-dda0-4ebc-88c1-6aaf74f34de2}" interactionclass="Typical" key="$ProcessId BrowserId" name="CFD-UsersFiles-PageDisplayed" sqmid="116" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27141" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27142" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{5b48ac86-7b16-4d82-9771-adead7fedc9b}" interactionclass="Extended" key="$ProcessId BrowserId" name="CFD-UsersFiles-PageCompleted" sqmid="117" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27143" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27144" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{8c84b31b-a55b-49ce-a4b7-6ae3b2808f91}" interactionclass="Typical" key="$ProcessId BrowserId" name="StartMenu-Search-PageDisplayed" sqmid="118" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27145" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27146" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{c751525a-eae2-472a-b872-76153c5ac4ea}" interactionclass="Extended" key="$ProcessId BrowserId" name="StartMenu-Search-PageCompleted" sqmid="119" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27147" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27148" version="0"/>
+      </scenario>
+      <scenario guid="{1319c8c2-e5cb-47b2-af45-6fce98b63dff}" interactionclass="Typical" key="$ProcessId" name="Shell-Taskbar-Launch-Explorer" sqmid="448" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27149" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27226" version="0"/>
+      </scenario>
+      <scenario guid="{34f1b37d-eaff-4532-a65f-d1a48330b948}" interactionclass="Typical" key="$ProcessId" name="Shell-Taskbar-HoverUI-Up" sqmid="137" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27151" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27152" version="0"/>
+      </scenario>
+      <scenario guid="{59cb01f8-1157-48b9-ae64-493561fe1174}" interactionclass="Responsive" key="$ProcessId" name="Shell-StartMenu-ControlPanel" sqmid="139" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27153" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27154" version="0"/>
+      </scenario>
+      <scenario guid="{49f5cd3b-df6b-47b3-8e7c-ffc1fbd88c67}" interactionclass="Typical" key="$ProcessId" name="Shell-StartMenu-Pictures-Local" sqmid="140" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27155" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27030" version="0"/>
+      </scenario>
+      <scenario guid="{571a707d-56d8-4b6c-85fb-67480a45ff50}" interactionclass="Typical" key="$ProcessId" name="Shell-StartMenu-Music-Local" sqmid="141" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27157" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27042" version="0"/>
+      </scenario>
+      <scenario guid="{046cd22f-22fa-4528-bbfb-98a771e4e321}" interactionclass="Typical" key="$ProcessId" name="Shell-StartMenu-Documents-Local" sqmid="142" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27159" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27018" version="0"/>
+      </scenario>
+      <scenario guid="{eb323b79-47d3-42f1-ab1b-f6c7aab5d540}" interactionclass="Typical" key="$ProcessId" name="Shell-StartMenu-Pictures-Network" sqmid="328" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27155" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27034" version="0"/>
+      </scenario>
+      <scenario guid="{ce12aea8-6f93-4dce-9780-3845407d7459}" interactionclass="Typical" key="$ProcessId" name="Shell-StartMenu-Music-Network" sqmid="329" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27157" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27046" version="0"/>
+      </scenario>
+      <scenario guid="{32c6b786-ce22-4231-b603-f4958a38763b}" interactionclass="Typical" key="$ProcessId" name="Shell-StartMenu-Documents-Network" sqmid="330" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27159" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27022" version="0"/>
+      </scenario>
+      <scenario guid="{f98a0052-8f01-4f10-9774-6d7f84955f26}" interactionclass="Fast" key="$ProcessId" name="Shell-OpenSystrayOverflow" sqmid="216" tags="Shell Systray">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="21005" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="21006" version="0"/>
+      </scenario>
+      <scenario guid="{95b54f18-032d-487e-a50a-21833bb411e8}" interactionclass="Instant" key="$ProcessId" name="Shell-TaskbarDestinationList-Up" sqmid="270" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27163" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27164" version="0"/>
+      </scenario>
+      <scenario guid="{1f285516-bbfa-4626-bf11-61578ac89d21}" interactionclass="Fast" key="$ProcessId" name="Shell-StartMenuDestinationList-Up" sqmid="271" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27165" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27166" version="0"/>
+      </scenario>
+      <scenario guid="{063f811e-4d4a-4808-9068-e60f6ed280bd}" interactionclass="Responsive" key="$ProcessId" name="Shell-ControlPanelLaunch" sqmid="245" tags="Shell UIC">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="19601" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="19602" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{35bbdf91-142f-4380-b410-9bb4c0028c42}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-Templates-GroupedViewComplete" sqmid="180" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27175" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27176" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{08336388-9822-46ed-89bb-6a9ab29f1458}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-Templates-StackedViewComplete" sqmid="181" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27177" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27178" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{fc97db59-61de-4f1b-ba73-71ebe0743261}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-Templates-ThumbnailViewComplete" sqmid="182" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27179" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27180" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{91d819b7-c67e-4ed7-bec9-e16efd97fcde}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-Templates-SearchGroupedViewComplete" sqmid="183" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27181" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27182" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{a1828642-00cd-4a35-8ef9-e7821ba1312b}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-Templates-SearchStackedViewComplete" sqmid="184" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27183" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27184" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{a085be08-f53c-4010-931e-bcc5467655e5}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-Templates-SearchThumbsViewComplete" sqmid="185" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27185" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27186" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{a47a1e09-a6ee-45dd-975f-5b5b2df5906c}" interactionclass="Responsive" key="$ProcessId BrowserId" name="Explorer-Templates-SearchGrepViewComplete" sqmid="186" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27187" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27188" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{f393aa0f-574f-459a-9386-e9ea5a56d0a1}" interactionclass="Responsive" key="$ProcessId BrowserId" name="Explorer-Templates-OpenSearchViewComplete" sqmid="187" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27189" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27190" version="0"/>
+      </scenario>
+      <scenario guid="{3a196500-a865-48c4-aece-d7ec297b30a3}" interactionclass="Continuous" key="$ProcessId $ThreadId" name="Shell32-CopyEngine-CancelDlg" sqmid="188" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27213" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27214" version="0"/>
+      </scenario>
+      <scenario guid="{96c37e0c-4737-427d-89d5-99e63c9945fe}" interactionclass="Responsive" key="$ProcessId $ThreadId" name="LibraryLocation-AddedToLib" sqmid="198" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27215" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27216" version="0"/>
+      </scenario>
+      <scenario guid="{e7662a8a-cf41-48fd-8a27-cc810c72ee88}" interactionclass="Fast" key="$ProcessId $ThreadId" name="Explorer-ItemsView-PageScroll" sqmid="199" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27211" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27212" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{2d1d2193-3bb5-4ac8-8f97-2de26076bf49}" interactionclass="Responsive" key="$ProcessId BrowserId" name="Explorer-NetworkFileFolderViewPercievedComplete" sqmid="206" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27167" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27168" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{a29f1afc-db54-4761-a7c0-f4e103eaca0a}" interactionclass="Typical" key="$ProcessId BrowserId" name="Explorer-NetworkFolderHighDPI" sqmid="207" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27169" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27170" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{af2483af-6d3a-4153-90ae-b4927b56ba6d}" interactionclass="Fast" key="$ProcessId BrowserId" name="Explorer-LocalFolderHighDPI" sqmid="208" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27171" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27172" version="0"/>
+      </scenario>
+      <scenario guid="{4c2583eb-d541-477f-8877-991f676a760c}" interactionclass="Instant" key="$ProcessId $ThreadId" name="Explorer-FrameClose" sqmid="209" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27173" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27174" version="0"/>
+      </scenario>
+      <scenario guid="{b578dd4a-fcae-4d45-85e8-4132604ebce4}" interactionclass="Typical" key="$ProcessId $ThreadId" name="FilterMenu-EnumeratesTypeValues" sqmid="189" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27191" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27192" version="0"/>
+      </scenario>
+      <scenario guid="{cda5717d-0c18-4dc0-9875-c723e29c5bb6}" interactionclass="Typical" key="$ProcessId $ThreadId" name="FilterMenu-ListEnumeratesRange" sqmid="190" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27193" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27194" version="0"/>
+      </scenario>
+      <scenario guid="{74555858-36bf-4d14-b9ab-f3291d30f545}" interactionclass="Typical" key="$ProcessId $ThreadId" name="FilterMenu-MRUEnumerateValues" sqmid="191" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27195" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27196" version="0"/>
+      </scenario>
+      <scenario guid="{09dbd80c-d6d4-473f-ad1d-ee080965ddcc}" interactionclass="Responsive" key="$ProcessId $ThreadId" name="FilterMenu-MRUListEnumeratesRanges" sqmid="192" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27197" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27198" version="0"/>
+      </scenario>
+      <scenario guid="{2ed703df-a9eb-4c6a-8c12-6562583be447}" interactionclass="Fast" key="$ProcessId $ThreadId" name="FilterMenu-MRUControlRenders" sqmid="193" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27199" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27200" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{0df3b9a6-c95e-4023-a88c-1ae185ee5f17}" interactionclass="Responsive" key="$ProcessId BrowserId" name="HomeGroup-OtherUsersEnumerateInView" sqmid="194" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27201" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27202" version="0"/>
+      </scenario>
+      <scenario guid="{dfbef7ea-e93f-41cd-91c7-0413561032e6}" interactionclass="Responsive" key="$ProcessId $ThreadId" name="HomeGroup-OtherUsersEnumerateInNavPane" sqmid="195" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27203" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27204" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{3cb4a7fd-9bca-4c80-b9b2-adfb6473d357}" interactionclass="Typical" key="$ProcessId BrowserId" name="HomeGroup-OtherUsersLibsEnumInView" sqmid="196" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27205" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27206" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{ebf96e73-8fe8-46a3-ade0-13292ef4b8fc}" interactionclass="Responsive" key="$ProcessId BrowserId" name="HomeGroup-OtherUserLibraryViewPerceivedComplete" sqmid="197" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27207" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27208" version="0"/>
+      </scenario>
+      <scenario guid="{b580a98c-dfa2-41c5-b4ed-cad11af10c61}" interactionclass="Captive" key="$ProcessId" name="Explorer-Opensearch Server Response" sqmid="269" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27209" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27210" version="0"/>
+      </scenario>
+      <scenario guid="{8b747983-f915-4d43-81c2-b0c4dacce796}" interactionclass="Typical" key="$ProcessId" name="Shell-DesktopBackgroundSlideShow-Tick" sqmid="275" tags="Shell UIC">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="60701" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="60702" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{945ee87f-88c2-4cdf-9fcd-541297810927}" interactionclass="Fast" key="PerfTrackId" name="Shell-InspectorGadget" sqmid="294" tags="Shell CoreUX">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27217" version="0"/>
+        <event provider="{98583af0-fc93-4e71-96d5-9f8da716c6b8}" type="stop" value="10000" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{203ce00a-7b2a-4bda-a6f4-2a0842888a1c}" interactionclass="Fast" key="PerfTrackId" name="Shell-InspectorWindow" sqmid="295" tags="Shell CoreUX">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27218" version="0"/>
+        <event provider="{98583af0-fc93-4e71-96d5-9f8da716c6b8}" type="stop" value="10000" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{c00366c4-0017-46da-b6d4-e9fbb03ae069}" interactionclass="Responsive" key="$ProcessId BrowserId" name="Explorer-Templates-SearchIndexedViewComplete" sqmid="463" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27228" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27229" version="0"/>
+      </scenario>
+      <scenario guid="{deaabcf3-a233-4f98-9383-49af68192685}" interactionclass="Continuous" key="$ProcessId" name="Explorer-ExplorerStartToDesktopReady" sqmid="483" tags="Shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27230" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27231" version="0"/>
+      </scenario>
+      <scenario digestedkey="@8,0,0,4,0" guid="{23ba3e68-0453-4ea7-a74c-4c1416c30d5d}" interactionclass="Responsive" key="$ProcessId BrowserId" name="HomeGroup-OtherUserLibraryViewWindowReady" sqmid="578" tags="shell">
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="start" value="27232" version="0"/>
+        <event provider="{30336ed4-e327-447c-9de0-51b652c86108}" type="stop" value="27233" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

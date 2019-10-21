@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario digestedkey="@f,0,0,10,0" guid="{f6e83114-8f85-42ed-98cc-7d809712fc4f}" interactionclass="Extended" key="InterfaceGuid" name="Net-NID-NlaInterfaceUp-NlaIdentifyNetwork" sqmid="489" tags="Net Identification">
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="start" value="4407" version="0"/>
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="stop" value="4402" version="0"/>
+      </scenario>
+      <scenario digestedkey="@f,0,0,10,0" guid="{7b783ee8-0a3a-44d8-b57a-8cc347974833}" interactionclass="Extended" key="InterfaceGuid" name="Net-NID-NlaDhcpStable-NlaIdentifyNetwork" sqmid="494" tags="Net Identification">
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="start" value="4261" version="0"/>
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="stop" value="4404" version="0"/>
+      </scenario>
+      <scenario digestedkey="@f,0,0,10,0" guid="{225d1ddc-c837-4e9e-8251-b6c9d3ff0cda}" interactionclass="Extended" key="InterfaceGuid" name="Net-NID-NlaIdentification-Cancel" sqmid="491" tags="Net Identification">
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="start" value="4407" version="0"/>
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="stop" value="6101" version="0"/>
+      </scenario>
+      <scenario digestedkey="@f,0,0,10,0" guid="{29a75177-8114-4079-b3b4-7b755805b055}" interactionclass="Extended" key="InterfaceGuid" name="Net-NID-NlmIdentification-Cancel" sqmid="492" tags="Net Identification">
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="start" value="4409" version="0"/>
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="stop" value="6102" version="0"/>
+      </scenario>
+      <scenario digestedkey="@f,0,0,10,0" guid="{e62eabe7-1770-43f2-acc9-db344df47782}" interactionclass="Extended" key="InterfaceGuid" name="Net-NID-NlaDhcpStable-Cancel" sqmid="493" tags="Net Identification">
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="start" value="4261" version="0"/>
+        <event provider="{63B530F8-29C9-4880-A5B4-B8179096E7B8}" type="stop" value="6103" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

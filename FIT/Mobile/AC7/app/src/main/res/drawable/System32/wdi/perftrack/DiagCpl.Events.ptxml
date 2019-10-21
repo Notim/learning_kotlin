@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{4690f658-0da2-476b-a8f2-bcc44a674f0d}" interactionclass="Continuous" key="$ProcessId" name="TroubleshootingCPL-QueryDiagProvider" sqmid="398" tags="Troubleshooting">
+        <event provider="{1a396961-5f3c-4c71-8310-44c653c0bf8a}" type="start" value="4000" version="0"/>
+        <event provider="{1a396961-5f3c-4c71-8310-44c653c0bf8a}" type="stop" value="4001" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

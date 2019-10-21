@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{797c0702-c819-45e8-a9d4-3009c97a9c34}" interactionclass="Typical" key="$ProcessId" name="TIP-LaunchFromEdgeTargetToSKB" sqmid="130" tags="Tablet TIP Keyboard SKB">
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="start" value="107" version="0"/>
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="stop" value="188" version="0"/>
+      </scenario>
+      <scenario guid="{c05b0cd4-18ae-49b3-8f22-3b20281428ac}" interactionclass="Fast" key="$ProcessId" name="TIP-LaunchFromIPIconToSKB" sqmid="131" tags="Tablet TIP Keyboard SKB">
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="start" value="105" version="0"/>
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="stop" value="202" version="0"/>
+      </scenario>
+      <scenario guid="{49f2b5ab-749f-4073-a2d2-ce90f0322fc4}" interactionclass="Instant" key="$ProcessId" name="TIP-TypeKeyOnSKBToKeyReceived" sqmid="132" tags="Tablet TIP Keyboard SKB">
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="start" value="65" version="0"/>
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="stop" value="12" version="0"/>
+      </scenario>
+      <scenario guid="{35e0eddc-07cc-416d-8eaf-a69426b9806a}" interactionclass="Typical" key="$ProcessId" name="TIP-HandwritingSwitchToTemplate" sqmid="133" tags="Tablet TIP Handwriting Template">
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="start" value="170" version="0"/>
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="stop" value="171" version="0"/>
+      </scenario>
+      <scenario guid="{200cfbf2-2192-41d6-9d6e-a2dabf59c0af}" interactionclass="Fast" key="$ProcessId" name="TIP-HandwritingRemoveTemplate" sqmid="134" tags="Tablet TIP Handwriting Template">
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="start" value="172" version="0"/>
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="stop" value="173" version="0"/>
+      </scenario>
+      <scenario guid="{d5253edb-e24f-4a4d-a0bb-4995096d8fa9}" interactionclass="Typical" key="$ProcessId" name="TIP-LaunchFromEdgeTargetToHandwriting" sqmid="487" tags="Tablet TIP Handwriting">
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="start" value="207" version="0"/>
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="stop" value="201" version="0"/>
+      </scenario>
+      <scenario guid="{157a003f-3b55-4169-a986-fc94c5b33d58}" interactionclass="Fast" key="$ProcessId" name="TIP-LaunchFromIPIconToHandwriting" sqmid="488" tags="Tablet TIP Handwriting">
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="start" value="205" version="0"/>
+        <event provider="{e978f84e-582d-4167-977e-32af52706888}" type="stop" value="90" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

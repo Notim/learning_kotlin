@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{ec6cc18d-1f0e-44a5-9c99-329c3b833227}" interactionclass="Responsive" key="$ThreadId" name="DeviceUX-DMRC-QueryServer" sqmid="426" tags="DeviceUX">
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="start" value="7800" version="0"/>
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="stop" value="7801" version="0"/>
+      </scenario>
+      <scenario guid="{977b390a-81b3-4e88-ba8c-c2d45d496f46}" interactionclass="Extended" key="$ThreadId" name="DeviceUX-DMRC-DownloadDeviceMetadata" sqmid="425" tags="DeviceUX">
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="start" value="7802" version="0"/>
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="stop" value="7803" version="0"/>
+      </scenario>
+      <scenario guid="{32aed50a-2bd8-4da7-b6b7-4c697965c3fc}" interactionclass="Continuous" key="$ProcessId" name="DeviceInstall-CoreDeviceInstall" sqmid="424" tags="DeviceInstall">
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="start" value="7702" version="0"/>
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="stop" value="7703" version="0"/>
+      </scenario>
+      <scenario guid="{d7a3d12d-0866-4606-a450-3e5d1cd83dd6}" interactionclass="Captive" key="$ProcessId" name="DeviceInstall-SearchWindowsUpdate" sqmid="429" tags="DeviceInstall">
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="start" value="7710" version="0"/>
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="stop" value="7711" version="0"/>
+      </scenario>
+      <scenario guid="{141d6cd0-128b-4218-b5ea-23c18e6359bf}" interactionclass="Extended" key="$ProcessId" name="DeviceInstall-DownloadDriversFromWU" sqmid="430" tags="DeviceInstall">
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="start" value="7712" version="0"/>
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="stop" value="7713" version="0"/>
+      </scenario>
+      <scenario guid="{1195d0dc-6b68-4cb1-bd16-7c65b8ca3969}" interactionclass="Captive" key="$ThreadId" name="DeviceInstall-StageDriverPackage" sqmid="449" tags="DeviceInstall">
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="start" value="7708" version="0"/>
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="stop" value="7709" version="0"/>
+      </scenario>
+      <scenario guid="{c6a31352-3f28-4103-a38b-665f81afea1e}" interactionclass="LongRunning" key="$ThreadId" name="DeviceInstall-E2E-DevnodeInstall" sqmid="552" tags="DeviceInstall">
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="start" value="7730" version="0"/>
+        <event provider="{96F4A050-7E31-453C-88BE-9634F4E02139}" type="stop" value="7731" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

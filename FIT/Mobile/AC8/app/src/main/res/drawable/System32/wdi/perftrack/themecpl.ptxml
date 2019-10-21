@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{659b484b-ced9-4b4b-ac09-68dd2dd5c312}" interactionclass="Responsive" key="$ProcessId" name="Shell-PersonalizationControlPanelLaunch" sqmid="249" tags="Shell UIC">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="4" version="0"/>
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="stop" value="5" version="0"/>
+      </scenario>
+      <scenario guid="{57f5fb82-a430-4249-88dc-a7b9c39c3d9f}" interactionclass="Responsive" key="$ProcessId" name="Shell-DesktopBackgroundControlPanelLaunch" sqmid="250" tags="Shell UIC">
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="start" value="9" version="0"/>
+        <event provider="{61F044AF-9104-4CA5-81EE-CB6C51BB01AB}" type="stop" value="10" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

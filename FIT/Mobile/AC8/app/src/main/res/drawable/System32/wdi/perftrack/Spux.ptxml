@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{0ca5f2fc-9f1f-4513-8899-4e851fc39928}" interactionclass="Continuous" key="$ProcessId" name="SpeechUX-StartApp-GrammarUpdate" sqmid="427" tags="UIP">
+        <event provider="{13480A22-D79F-4334-9D32-AA239398AD3C}" type="start" value="83" version="0"/>
+        <event provider="{13480A22-D79F-4334-9D32-AA239398AD3C}" type="stop" value="84" version="0"/>
+      </scenario>
+      <scenario guid="{4762db1f-b611-4120-bf9b-9fe6df00da05}" interactionclass="Continuous" key="$ProcessId" name="SpeechUX-Commanding-Scraping" sqmid="428" tags="UIP">
+        <event provider="{13480A22-D79F-4334-9D32-AA239398AD3C}" type="start" value="1" version="0"/>
+        <event provider="{13480A22-D79F-4334-9D32-AA239398AD3C}" type="stop" value="2" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>

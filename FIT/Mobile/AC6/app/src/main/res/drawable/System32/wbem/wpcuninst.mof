@@ -1,0 +1,16 @@
+#pragma autorecover
+
+#pragma namespace("\\\\.\\ROOT\\CIMV2")
+
+instance of __Namespace
+{
+    Name = "Applications";
+};
+
+#pragma namespace("\\\\.\\ROOT\\CIMV2\\Applications")
+
+//**************************************************************************
+//* Delete Windows Parental Controls Namespace 
+//**************************************************************************
+#pragma deleteinstance("__NAMESPACE.Name='WindowsParentalControls'", nofail)
+

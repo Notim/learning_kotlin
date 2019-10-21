@@ -1,0 +1,51 @@
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+//
+// WPP Generated File
+// PDB:  d:\nisdgux.obj.x86chk\shell\ext\wpc\settings\provider\objchk\i386\Wpc.pdb
+// PDB:  Last Updated :2006-4-27:22:46:35:98 (UTC) [binplace]
+//
+
+//ModuleName = WPCTraceProvider	 (Init called in Function WPP_CONTROL_ANNOTATION)
+[Dynamic,
+ Description("WPC Trace"),
+ guid("{10FA726E-8CD5-44a4-AA43-874988626F21}"),
+ locale("MS\\0x409")]
+class WPCTraceProvider : EventTrace
+{
+    [Description ("Enable Flags"),
+        ValueDescriptions{
+             "Fatal Flag",
+             "Error Flag",
+             "Warning Flag",
+             "Info Flag",
+             "API Flag",
+             "FuncCall Flag",
+             "HiFreq Flag"},
+        DefineValues{
+             "Fatal",
+             "Error",
+             "Warning",
+             "Info",
+             "API",
+             "FuncCall",
+             "HiFreq"},
+        Values{
+             "Fatal",
+             "Error",
+             "Warning",
+             "Info",
+             "API",
+             "FuncCall",
+             "HiFreq"},
+        ValueMap{
+             "0x00000001",
+             "0x00000002",
+             "0x00000004",
+             "0x00000008",
+             "0x00000010",
+             "0x00000020",
+             "0x00000040"}
+    ]
+    uint32 Flags;
+};

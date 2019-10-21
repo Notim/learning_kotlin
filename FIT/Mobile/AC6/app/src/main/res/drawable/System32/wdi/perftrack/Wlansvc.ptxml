@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<instrumentationManifest>
+  <instrumentation>
+    <perftrack>
+      <scenario guid="{662dd4be-62c1-47ad-852a-07408f8c8359}" interactionclass="Captive" key="InterfaceGuid" name="Net-Resume-Roam" sqmid="350" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20000" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20002" version="0"/>
+      </scenario>
+      <scenario guid="{8336a52b-2ed6-410a-a2f4-8ce678d91305}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-IgnoreAcmConnect" sqmid="352" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20000" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30000" version="0"/>
+      </scenario>
+      <scenario guid="{53545ed9-28f8-4c28-af71-a5059dedc60f}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-IgnoreResumeTwice" sqmid="355" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20000" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20004" version="0"/>
+      </scenario>
+      <scenario guid="{24d9d18b-6627-4e81-a080-d633bc6e92c7}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Reconnect" sqmid="351" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20001" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30002" version="0"/>
+      </scenario>
+      <scenario guid="{eae0fe4d-415a-4918-8b84-1a6bf5a59080}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Reconnect-Hidden" sqmid="582" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20001" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30013" version="0"/>
+      </scenario>
+      <scenario guid="{6233ab56-f5f0-4283-a7be-9c7d2f2c6af5}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Reconnect-RoamFail" sqmid="592" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20001" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30019" version="0"/>
+      </scenario>
+      <scenario guid="{aaafbfb2-ddf0-49b0-a8c2-45d0cf7789c7}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-IgnoreUnPreferredLoc" sqmid="353" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20001" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30001" version="0"/>
+      </scenario>
+      <scenario guid="{d912d8e5-e9b4-4420-af7c-71931db355a6}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-IgnoreNwifiPortOpen" sqmid="354" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20001" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20003" version="0"/>
+      </scenario>
+      <scenario guid="{004536c0-585b-40b7-93c6-0bc2e532a9f1}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-IgnoreResumeTwice" sqmid="356" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20001" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20005" version="0"/>
+      </scenario>
+      <scenario guid="{4384361e-65b8-4f7b-ba95-3d0f27fc189d}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-IgnoreMC" sqmid="563" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20001" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30007" version="0"/>
+      </scenario>
+      <scenario guid="{841edcbc-805b-4738-9a22-95810b7ced2c}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-IgnoreUi" sqmid="580" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20001" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30010" version="0"/>
+      </scenario>
+      <scenario guid="{91a3186b-8f59-4858-b2c4-efc5f844aecd}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-IgnoreSLExhausted" sqmid="587" tags="Net Wireless WLAN 802.11 Resume">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20001" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30016" version="0"/>
+      </scenario>
+      <scenario guid="{ba93923d-322e-48d8-bafd-d35804230d29}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-RequestAck" sqmid="366" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60000" version="0"/>
+      </scenario>
+      <scenario guid="{b52bea52-cd04-4f64-ba95-fe3279d32454}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-Dora" sqmid="367" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60001" version="0"/>
+      </scenario>
+      <scenario guid="{8f950f04-7919-42e5-8df9-595797eef316}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-GatewayReachable" sqmid="368" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60002" version="0"/>
+      </scenario>
+      <scenario guid="{b1d03716-be66-47f7-b6f7-47f5f6887956}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-RA-Toggle" sqmid="457" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60005" version="0"/>
+      </scenario>
+      <scenario guid="{4d958ddb-ae9c-4902-a8cc-4ac818c59100}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-Dora-InitToggle" sqmid="459" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60007" version="0"/>
+      </scenario>
+      <scenario guid="{de313e7a-55fd-47d6-ac1a-5f06cd8abd27}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-Dora-InitRebootToggle" sqmid="460" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60006" version="0"/>
+      </scenario>
+      <scenario guid="{d0ff9a69-283b-419c-a2a7-08c54fa39d92}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-IgnoreFallbackAddress" sqmid="401" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60004" version="0"/>
+      </scenario>
+      <scenario guid="{ba8649cb-3cc7-494a-a234-07f108b8b523}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-IgnoreStatic" sqmid="369" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60003" version="0"/>
+      </scenario>
+      <scenario guid="{ed70997f-846f-4fd0-8330-020610b50012}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-IgnoreAcmConnect" sqmid="370" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30003" version="0"/>
+      </scenario>
+      <scenario guid="{811dedef-fb2d-44c9-9187-56b162898878}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-DHCP-IgnoreResumeTwice" sqmid="371" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20006" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20009" version="0"/>
+      </scenario>
+      <scenario guid="{f041c8aa-cc98-49d3-b81e-9a57d14e39cc}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-RequestAck" sqmid="372" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60000" version="0"/>
+      </scenario>
+      <scenario guid="{cb73e24b-5bee-4978-8a82-7e38c9971deb}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-Dora" sqmid="373" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60001" version="0"/>
+      </scenario>
+      <scenario guid="{678159de-58ad-4df7-9b6b-7fb79b313142}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-GatewayReachable" sqmid="374" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60002" version="0"/>
+      </scenario>
+      <scenario guid="{49caa28f-a1d3-4959-99f2-62d95235783b}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-RA-Toggle" sqmid="458" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60005" version="0"/>
+      </scenario>
+      <scenario guid="{12cf42e0-2225-48cb-b7cb-e1c797062ebd}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-Dora-InitToggle" sqmid="461" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60007" version="0"/>
+      </scenario>
+      <scenario guid="{ced576a4-0433-440e-b253-32b6ce72dc6a}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-Dora-InitRebootToggle" sqmid="462" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60006" version="0"/>
+      </scenario>
+      <scenario guid="{12b324a5-7fc4-483e-a027-3954f8dce30d}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-IgnoreFallbackAddress" sqmid="403" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60004" version="0"/>
+      </scenario>
+      <scenario guid="{21706b44-40ee-4f41-8c58-ea4727432c61}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-IgnoreStatic" sqmid="375" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{15A7A4F8-0072-4EAB-ABAD-F98A4D666AED}" type="end" value="60003" version="0"/>
+      </scenario>
+      <scenario guid="{314cded3-2593-4ac9-89db-cffefb660d7d}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-IgnoreNwifiPortOpen" sqmid="376" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20008" version="0"/>
+      </scenario>
+      <scenario guid="{b07567c1-fc5d-476b-8ab5-484965de1e66}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-IgnoreResumeTwice" sqmid="377" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20010" version="0"/>
+      </scenario>
+      <scenario guid="{5a9e0af5-d5d6-49d4-bbf0-664597973c6f}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-IgnoreUnPreferredLoc" sqmid="378" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30004" version="0"/>
+      </scenario>
+      <scenario guid="{6d8a236d-1898-4212-b55b-2f6a2f26391c}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-IgnoreMC" sqmid="564" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30008" version="0"/>
+      </scenario>
+      <scenario guid="{b7cc73fa-d6a4-4529-b309-c321de202ef9}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-IgnoreUi" sqmid="583" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30011" version="0"/>
+      </scenario>
+      <scenario guid="{26b8dbd2-276c-4fc8-b97e-abeb6ec4184a}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-IgnoreHidden" sqmid="584" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30014" version="0"/>
+      </scenario>
+      <scenario guid="{95fd8a95-6f7a-4bc7-9c4d-589f95f6055f}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-DHCP-IgnoreSLExhausted" sqmid="588" tags="Net Wireless WLAN 802.11 Resume DHCP">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20007" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30017" version="0"/>
+      </scenario>
+      <scenario guid="{0ef9e669-81c3-4a70-8246-ab8dfb284e87}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Roam-NCSI-Internet" sqmid="379" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20011" version="0"/>
+        <event provider="{314DE49F-CE63-4779-BA2B-D616F6963A88}" type="end" value="4006" version="0"/>
+      </scenario>
+      <scenario guid="{4f38e714-3253-4ecd-b000-b398b15f45dc}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Roam-NCSI-InternetOpt" sqmid="454" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20011" version="0"/>
+        <event provider="{314DE49F-CE63-4779-BA2B-D616F6963A88}" type="end" value="4027" version="0"/>
+      </scenario>
+      <scenario guid="{27496702-0fb9-43f5-814b-46f4979205c4}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-NCSI-Internet-IgnoreAcmConnect" sqmid="380" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20011" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30005" version="0"/>
+      </scenario>
+      <scenario guid="{1c52cb5d-4192-49c1-8ec7-8c5c75d176d3}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Roam-NCSI-Internet-IgnoreResumeTwice" sqmid="381" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20011" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20013" version="0"/>
+      </scenario>
+      <scenario guid="{a04afe51-4e90-4b31-913e-be7d7f18ff87}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Reconnect-NCSI-Internet" sqmid="382" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20012" version="0"/>
+        <event provider="{314DE49F-CE63-4779-BA2B-D616F6963A88}" type="end" value="4006" version="0"/>
+      </scenario>
+      <scenario guid="{db5366f2-138e-4517-9625-ed6464b19c5c}" interactionclass="Extended" key="InterfaceGuid" name="Net-Resume-Reconnect-NCSI-InternetOpt" sqmid="455" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20012" version="0"/>
+        <event provider="{314DE49F-CE63-4779-BA2B-D616F6963A88}" type="end" value="4027" version="0"/>
+      </scenario>
+      <scenario guid="{b1bf06c4-5ff5-48da-a7d3-7860e240fe28}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-NCSI-Internet-IgnoreUnPrefLoc" sqmid="386" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20012" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30006" version="0"/>
+      </scenario>
+      <scenario guid="{6b99de60-e3d5-4184-9afb-bb09b40c7e1e}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-NCSI-Internet-IgnorePortOpen" sqmid="388" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20012" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20015" version="0"/>
+      </scenario>
+      <scenario guid="{305e5cae-153a-46bd-afbf-33226438b21f}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-NCSI-Internet-IgnoreResume" sqmid="389" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20012" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="20014" version="0"/>
+      </scenario>
+      <scenario guid="{917e3b62-4023-46d5-8501-dd4688a20cbb}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-NCSI-IgnoreMC" sqmid="565" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20012" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30009" version="0"/>
+      </scenario>
+      <scenario guid="{75019522-2e7d-464f-aa00-49f50e225814}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-NCSI-IgnoreUi" sqmid="585" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20012" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30012" version="0"/>
+      </scenario>
+      <scenario guid="{79104329-98b6-4e0d-87f3-b1e883f3e9db}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-NCSI-IgnoreHidden" sqmid="586" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20012" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30015" version="0"/>
+      </scenario>
+      <scenario guid="{e71fc144-cfca-4c03-8f7f-f9e15e8e5bbe}" interactionclass="LongRunning" key="InterfaceGuid" name="Net-Resume-Reconnect-NCSI-IgnoreSLExhausted" sqmid="589" tags="Net Wireless WLAN 802.11 Resume NCSI">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="20012" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="30018" version="0"/>
+      </scenario>
+      <scenario Name="NET-WlanSvc-StartDeviceNetwork" guid="{6f4bacd8-fb47-434d-b241-94b2a40994b9}" interactionclass="Extended" key="InterfaceGuid" sqmid="473" tags="Networking">
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="begin" value="8005" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="8006" version="0"/>
+      </scenario>
+      <scenario Name="NET-WlanSvc-StartDeviceNetwork-Failed" guid="{acf3aed0-7da2-4852-9b15-d052406f16d9}" interactionclass="LongRunning" key="InterfaceGuid" sqmid="474" tags="Networking">
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="begin" value="8005" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="8007" version="0"/>
+      </scenario>
+      <scenario Name="NET-WlanSvc-StopDeviceNetwork" guid="{b3e2c278-41d8-45c6-a3cc-71ae72ef2878}" interactionclass="Extended" key="InterfaceGuid" sqmid="475" tags="Networking">
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="begin" value="8008" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="8009" version="0"/>
+      </scenario>
+      <scenario Name="NET-WlanSvc-StopDeviceNetwork-Failed" guid="{ced0b080-074f-4db7-ae61-d41f22fe3bcf}" interactionclass="LongRunning" key="InterfaceGuid" sqmid="476" tags="Networking">
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="begin" value="8008" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="8010" version="0"/>
+      </scenario>
+      <scenario guid="{6c448cd1-01ea-4bd2-b93e-cd3f017e08be}" interactionclass="Extended" key="InterfaceGuid" name="NET-Nwifi-StartDeviceNetwork" sqmid="477" tags="Networking">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="10066" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="10067" version="0"/>
+      </scenario>
+      <scenario guid="{d4d86aee-9a6c-4c19-bf37-c4bf65b0cd4f}" interactionclass="LongRunning" key="InterfaceGuid" name="NET-Nwifi-StartDeviceNetwork-Failed" sqmid="478" tags="Networking">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="10066" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="10068" version="0"/>
+      </scenario>
+      <scenario guid="{2c05ceaa-8641-4628-a1e6-73dd9568df02}" interactionclass="Extended" key="InterfaceGuid" name="NET-Nwifi-StopDeviceNetwork" sqmid="479" tags="Networking">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="10069" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="10070" version="0"/>
+      </scenario>
+      <scenario guid="{3d61edc8-188b-47f1-a61b-72eadf666cf0}" interactionclass="LongRunning" key="InterfaceGuid" name="NET-Nwifi-StopDeviceNetwork-Failed" sqmid="480" tags="Networking">
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="begin" value="10069" version="0"/>
+        <event provider="{0BD3506A-9030-4f76-9B88-3E8FE1F7CFB6}" type="end" value="10071" version="0"/>
+      </scenario>
+      <scenario Name="NET-Msam-SuccessAuthentication" guid="{298c199a-b70f-4e98-9892-e47298e9c240}" interactionclass="Extended" key="InterfaceGuid" sqmid="481" tags="Networking">
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="begin" value="20019" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="20020" version="0"/>
+      </scenario>
+      <scenario Name="NET-Msam-FailedAuthentication" guid="{3dc1cbfe-495e-4dec-b09f-220dfad59ebe}" interactionclass="LongRunning" key="InterfaceGuid" sqmid="482" tags="Networking">
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="begin" value="20019" version="0"/>
+        <event provider="{9580d7dd-0379-4658-9870-d5be7d52d6de}" type="end" value="20021" version="0"/>
+      </scenario>
+    </perftrack>
+  </instrumentation>
+</instrumentationManifest>
